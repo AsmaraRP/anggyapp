@@ -46,7 +46,7 @@ export default function Home() {
   };
   const handleSubmitForm = (e) => {
     e.preventDefault();
-    if (kode === "iloveyou") {
+    if (kode === "mqbcdpp2023") {
       setError(false);
       setAuth(true);
     } else {
