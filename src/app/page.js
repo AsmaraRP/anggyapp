@@ -83,8 +83,8 @@ export default function Home() {
           </div>
           <div className={styles.authrightContainer}>
             <div className={styles.formContainer}>
-              <h1 style={{ fontSize: 60, fontWeight: 800, marginBottom: 30 }}>Kode Akses</h1>
-              <input onChange={handleChangeForm} value={kode} name="kode" type="password" className={styles.formStyle} placeholder="Masukan Kose Akses" />
+              <h1 className={styles.titleAuth}>Kode Akses</h1>
+              <input onChange={handleChangeForm} value={kode} name="kode" type="password" className={styles.formStyle} placeholder="Masukan Kode Akses" />
               {error ? <p style={{ fontSize: 10, color: "red" }}>* Kode akses salah, silahkan coba lagi</p> : null}
               <button onClick={handleSubmitForm} className={styles.buttonForm}>
                 Masuk
