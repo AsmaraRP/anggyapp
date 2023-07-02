@@ -63,7 +63,7 @@
 }
 .buttonForm:hover {
   cursor: pointer;
-  background-color: #0d7cab;
+  background: linear-gradient(0deg, #1579b1 0%, #1579b1 50%);
 }
 .container {
   display: flex;
