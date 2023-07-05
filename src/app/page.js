@@ -11,31 +11,342 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
-      question: "dampak yang dapat ditimbulkan oleh penyebaran virus ebola secara luas terhadap masyarakt dunia adalah ...",
-      answer: [
-        ["membatasi ruang gerak dan interaksi masyarakat", true],
-        ["menimbulkan rasa takur melakukan untuk perjalanan jauh", false],
-        ["memperkecil minal masyarakat mengonsumsi sayur dan buah", false],
-        ["menurunkan kesadaran menjaga lingkungan agar tetap bersih ", false],
-      ],
+      question:
+        "mr. rudi provides support and protection to a fraud whistleblower. Then compiles internal provisions related to fraud complains that occur and also he compiles an effective fraud reporting system that includes clarity of the reporting process, including what pillars of fraud strategy does Mr. Rudi do ?",
+      answer: "pillar 2: detection",
     },
     {
-      question: "dampak yang dapat ditimbulkan oleh penyebaran virus covid 19 adalah...",
-      answer: [
-        ["membatasi ruang gerak penduduk", false],
-        ["menimbulkan rasa takut", false],
-        ["memperkecil minal masyarakat", false],
-        ["menurunkan kesadaran", true],
-      ],
+      question: "which currency can be used to give BCA Personal Loan Credit Facilities?",
+      answer: "Rupiah",
     },
     {
-      question: "berapa korban meninggal dunia karena putus cinta di dunia",
-      answer: [
-        ["100 jiwa", false],
-        ["1000 jiwa", true],
-        ["2000 jiwa", false],
-        ["10000 jiwa", false],
-      ],
+      question: "Langkah tambahan yang diterapkan BCA sebagai upaya pengamanan bagi nasabah saat melakukan registrasi myBCA mobile adalah…",
+      answer: "Verifikasi OTP dan verifikasi biometrik",
+    },
+    {
+      question: "Firda sent money to her sister (to other bank) twice via myBCA, once via BI-Fast service and once via RTGS service. What is the transfer fee that Firda paid?",
+      answer: "Rp 27.500",
+    },
+    {
+      question: "Mrs. Aping submitted a reference letter to BCA for the purpose of opening current at another bank. Then the requirements that must be met by Mrs. Aping for her interest rate ?",
+      answer: "Have been a BCA customer for at least 3 months",
+    },
+    {
+      question: "Terdapat beberapa faktor internal yang dapat meningkatkan kemungkinan terjadinya fraud. Dibawah ini yang merupakan faktor internal tersebut yaitu..",
+      answer: "Pengendalian keuangan yang kurang memadai",
+    },
+    {
+      question:
+        "Pada tahun 2022 kemarin, Pak Joshua mengambil KPR BCA dengan outstanding 700 juta. Bulan April 2023 ini, Pak Joshua ingin memindahkan suku bunga KPR BCA nya ke jenis suku bunga fixed 5 tahun. Untuk perpindahan ini, Pak Joshua harus membayar biaya migrasi sebesar...",
+      answer: "Rp 7.000.000",
+    },
+    {
+      question: "Tujuan dari kebijakan BYOD (Bring Your Own Device) adalah..",
+      answer: "Pengamanan terhadap perangkat milik pekerja yang digunakan untuk bekerja dan/atau terhubungan dengan network dan/atau resource yang dimiliki BCA",
+    },
+    {
+      question:
+        "Sikap yang teguh dalam menjunjung tinggi kejujuran dan keterbukaan, yang diikuti dengan tindakan konsisten dan konsekuen pada peran dalam berbagai situasi dan kondisi untuk membangun kepercayaan nasabah merupakan tata nilai perseroan jenis…",
+      answer: "Integritas",
+    },
+    {
+      question:
+        "Terdapat seorang nasabah yang ingin membuka rekening salah satu produk simpanan sehingga nasabah tersebut perlu untuk mengisikan data terlebih dahulu. Namun ketika dilakukan pengecekan, data nasabah tidak lengkap. Berikut yang tepat mengenai data tidak lengkap adalah...",
+      answer: "Tidak mengisikan tempat dan tanggal lahir",
+    },
+    {
+      question:
+        "Proses penerapan manajemen risiko operasional dilakukan dengan langkah-langkah sebagai berikut: I. Pengukuran risiko II. Pengendalian risiko III. Identifikasi risiko IV. Pemantauan risiko Urutan langkah-langkah yang benar adalah..",
+      answer: "III-I-IV-II",
+    },
+    {
+      question: "Berikut ini merupakan salah satu produk digital yang memiliki fungsi sebagai uang elektronik untuk melakukan berbagai macam transaksi perbankan di dalam aplikasi smartphone yaitu",
+      answer: "Sakuku",
+    },
+    {
+      question: "Apa makna dari Project Financing?",
+      answer:
+        "Skema pembiayaan dimana kreditur setuju menggunakan proyeksi kemampuan proyek dalam menghasilkan pendapatan sebagai dasar analisa kredit dan menjadi sumber utama pembayaran pinjaman, dibandingkan dengan kelayakan kredit dari pemilik proyek",
+    },
+    {
+      question: "In his work, Mr. Zain applies a proactive attitude to build and improve relationships with customers and looks attractive. What criteria has Mr. Zain implemented in the Smart Solution Program?",
+      answer: "Initiative and Attractive",
+    },
+    {
+      question: "What is the maximum deposit value for each customer guaranteed by LPS?",
+      answer: "IDR 2 billion",
+    },
+    {
+      question: "Pedoman dasar yang dibutuhkan untuk merealisasikan Misi BCA dalam mencapai Visi BCA di masa depan, Yaitu",
+      answer: "The BCA Way",
+    },
+    {
+      question: "Dalam penerapan Manajemen Risiko, BCA harus mengelola 8 Jenis Risiko. Dibawah ini yang merupakan jenis risiko adalah.. i. Risiko Penyimpanan Uang ii Risiko Hukum iii. Risiko Keluhan Pelanggan iv. Risiko VPC",
+      answer: "ii saja",
+    },
+    {
+      question: "Yang tidak termasuk dalam kriteria Nasabah/BO yang berisiko tinggi dalam penerapan Program APU dan PPT adalah...",
+      answer: "Rekanan berisiko tinggi (high risk counterparty)",
+    },
+    {
+      question: "Andre temporarily blocked his OneKlik account by contacting Halo BCA. A month later, Andre wants to unblock his OneKlik account again, which can be accessed using…",
+      answer: "BCA Mobile App",
+    },
+    {
+      question: "Salah satu jenis fasilitas Kendaraan Kredit Bermotor (KKB) adalah KKB Joint Financing (KKB JF). KKB JF memiliki 2 skema pembayaran yaitu..",
+      answer: "KKB JF Balloon Payment dan KKB JF Flexy Installment",
+    },
+    {
+      question: "Apakah arti dari Icon SENADA?",
+      answer: "Tekad bekerja sama serta pendampingan yang berkesinambungan dan tak pernah putus",
+    },
+    {
+      question:
+        "Jackson yang memiliki bisnis perhiasan mengetahui bahwa setiap transaksi tunai dengan nominal kumulatif Rp500 juta sehari akan dilaporkan oleh bank ke pihak berwenang. Keesokannya, ia mulai membagi-bagi uang yang diterimanya menjadi transaksi tunai kecil setiap harinya. Apakah yang dilakukan Jackson merupakan jenis pencucian uang?",
+      answer: "Ya, yang dilakukan Jackson termasuk dalam modus pencucian uang jenis Structuring",
+    },
+    {
+      question: "Kebijakan Dasar Perkreditan Bank (KDPB) merupakan landasan bagi Bank dalam melaksanakan bisnis perbankan dengan mempertimbangkan beberapa faktor, yaitu..",
+      answer: "Faktor Risiko, Faktor Pendapatan dan Faktor Peluang",
+    },
+    {
+      question: "The minimum placement of funds in accordance with the currency of time deposit money market (DBMM) in accordance with Indonesian currency (Rupiah) is ?",
+      answer: "Rp 50.000.000.000",
+    },
+    {
+      question:
+        "Media penyampaian informasi internal terkait perusahaan, produk dan aktivitas internal BCA yang terpusat, penyampaian informasi eksternal, penyimpanan dokumen kerja dan pendukung proses kerja internal merupakan fungsi dari?",
+      answer: "myBCA Portal",
+    },
+    {
+      question:
+        "Pak Ramli berniat untuk melakukan transaksi obligasi korporasi pasar sekunder di cabang dan Pak Ramli berniat untuk melakukan transaksi sebesar 6 Juta. Apakah transaksi yang dilakukan Pak Ramli sudah tepat untuk dilakukan?",
+      answer: "Belum tepat, karena minimum transaksi sebesar Rp 5 Juta dan kelipatan Rp 5 juta",
+    },
+    {
+      question: "What are the transfer mechanisms for Valas Transfer types (OR) to other banks in Klik BCA Individu?",
+      answer: "Immediate",
+    },
+    {
+      question: "The following are the types of overdue account fees that can be waived according to the terms of the elimination of overdue account fees in SimPel, namely…",
+      answer: "Administration fee if the average monthly balance is below the minimum balance",
+    },
+    {
+      question: "i. Website/Situs BCA ii. WhatsApp BCA iii. Official Email BCA iv. m-BCA Yang termasuk sarana akses untuk layanan Halo BCA Chat adalah..",
+      answer: "i dan ii",
+    },
+    {
+      question: "Mr. Rendi is an honorary teacher who lives in Solo City and wants to apply for an unsecured loan for personal use. What is the minimum income that Mr. Rendi must have to apply for a loan?",
+      answer: "Rp2,000,000",
+    },
+    {
+      question:
+        "Lesti merupakan seorang karyawan BCA yang tertarik mengikuti perlombaan inovasi di BCA, Namun Lesti tidak mengetahui persyaratan apa saja yang harus dipenuhi Lesti. Apakah media internal yang tepat untuk Lesti melihat informasi tersebut?",
+      answer: "myBCA Portal",
+    },
+    {
+      question: "Which of the following corporate credit products is suitable for its intended use?",
+      answer: "Product: Forex Line and Money Market Term Loan for Credit Derivatives",
+    },
+    {
+      question:
+        'Mengaburkan asal usul sumber dana dengan mengirimkan dana dari hasil kejahatan melalui rekening pihak ketiga dang menunggu kiriman dana dari luar negeri dan tidak menyadari bahwa dana yang diterimanya merupakan "proceed of crime”, merupakan modus pencucian uang jenis ?',
+      answer: "Cuckoo Smurfing",
+    },
+    {
+      question: "Dalam ketentuan Pengolaan user ID dan Password di lingkup BCA, berikut ini yang bukan ketentuan user ID secara umum adalah..",
+      answer: "Dinonaktifkan jika tidak digunakan dalam 7 hari",
+    },
+    {
+      question: 'Salah satu tata nilai BCA yaitu "Kerja sama tim (Team work)". Manakah dibawah ini yang menjadi tata nilai kerja sama tim (Team work) di BCA ?',
+      answer: "Interaksi dan sinergi yang didasari atas pemahaman diri sendiri dan orang lain untuk mencapai tujuan organisasi.",
+    },
+    {
+      question: "Mrs. Lisa applied for KPR with BCA in 2023 to buy a house in Solo. The plafon approved by BCA for Mrs. Lisa is IDR 5 billion. What is the administration fee that Mrs. Lisa must pay for this KPR Financing?",
+      answer: "IDR 1.000.000",
+    },
+    {
+      question: 'BCA menerapkan lima prinsip dasar yang berpedoman pada berbagai ketentuan dan peraturan perundang-undangan yang berlaku. Salah satu prinsipnya yaitu "Transparansi". Apa yang dimaksud transparansi dalam prinsip dasar BCA ?',
+      answer: "",
+    },
+    {
+      question: "Keterbukaan dalam mengemukakan informasi yang material dan relevan serta keterbukaan dalam proses pengambilan keputusan.",
+      answer: "",
+    },
+    {
+      question:
+        "Yohana kesulitan saat menggunakan layanan VIRA untuk mengakses info rekening joint account yang dimilikinya. Setelah diteliti, ternyata rekening joint account yang dimiliki Yohana adalah tipe “DAN”. Apa yang sebaiknya disarankan kepada Yohana ?",
+      answer: "Menyarankan Yohana untuk membuka rekening joint account dengan tipe “ATAU” agar tetap dapat mengakses transaksi perbankan di VIRA",
+    },
+    {
+      question: "Yang bukan merupakan jenis perbuatan yang tergolong fraud adalah",
+      answer: "Memisahkan uang hasil penjualan dan uang kas",
+    },
+    {
+      question:
+        "Mimin senantiasa meningkatkan pelayanan untuk memenuhi setiap keperluan nasabah yang datang ke kantor cabang. Ia dinilai sangat baik dan atasannya ingin memberikan apresiasi kepada mimin. Aplikasi apakah yang tepat digunakan atasannya tersebut?",
+      answer: "MyXperience, untuk berinteraksi dan berbagi informasi antar Pekerja BCA",
+    },
+    {
+      question:
+        "Pak Ari seorang wiraswasta mendatangi kantor Cabang BCA untuk melakukan pembukaan rekening Tahapan anaknya yang masih berumur dibawah 17 tahun. Berdasarkan kondisi tersebut manakah yang bukan merupakan persyaratan pembukaan rekening perseorangan belum dewasa (WNI) diwakili orang tua?",
+      answer: "Surat Penetapan Pengangkatan Wali dari Pengadilan Negeri",
+    },
+    {
+      question: "Bulan lalu, Cabang A mengalami suatu kendala. Tim dari Cabang A mengetahui solusi nya dan mengimplementasikan solusi tersebut. Apakah value yang tepat untuk menggambarkan case tersebut?",
+      answer: "Continuous Pursuit of Excellence",
+    },
+    {
+      question: "Berikut ini yang bukan termasuk ketentuan karyawan BCA dalam penggunaan sosial media, internet dan email adalah…",
+      answer: "Menyebarluaskan informasi yang belum divalidasi di media sosial, internet, atau email",
+    },
+    {
+      question:
+        "Pak Roni always conducts socialization related to policies to not tolerate fraud and he also promotes the creation of anti fraud posters/ articles that are socialized on the BCA website. Mr. Roni' anti-fraud strategy is included in the attachment…",
+      answer: "Prevention",
+    },
+    {
+      question: "Pak Qevin ingin berinvestasi Reksadana sebesar Rp 2.000.000- (nett), maka total dana yang akan didebet dari rekening Pak Qevin adalah",
+      answer: "Rp 2.020.000",
+    },
+    {
+      question: "Tunggakan BCA Personal Loan merupakan kewajiban angsuran kredit debitur BCA Personal Loan yang telah jatuh tempo tetapi tidak terdapat pembayaran. Salah satu penyebab terjadi nya tunggakan adalah…",
+      answer: "Debitur meninggal dunia",
+    },
+    {
+      question:
+        "Edwin seorang nasabah pengguna Kartu Kredit BCA ingin melakukan pendaftaran asuransi melalui Website BCA namun tidak dapat diproses. Berikut salah satu alasan yang tepat mengapa pendaftaran asuransi Edwin tidak dapat diproses adalah",
+      answer: "Data email pengiriman e-Statement Kartu Kredit Edwin belum terdaftar di BCA.",
+    },
+    {
+      question: "Bank wajib merahasiakan segala sesuatu yang berhubungan dengan keterangan mengenai Nasabah. Berikut yang bukan Informasi perbankan yang dijadikan sebagai obyek rahasia Bank adalah..",
+      answer: "Tugas dan kewajiban karyawan Bank",
+    },
+    {
+      question: "One of the objectives of the Bank Indonesia - Real Time Gross Settlement (BI-RTGS) system is..",
+      answer: "Provide transfer system services that are practical, fast, efficient, safe and reliable",
+    },
+    {
+      question: "KlikBCA Business Customers can attend training related to use or handling of KBB issue through…",
+      answer: "Virtual Training KBB",
+    },
+    {
+      question:
+        "Fasilitas pembayaran KKB yang diberikan kepada debitur dengan angsuran yang ringan pada awal realisasi kredit dan akan berjenjang naik setiap periode dengan proporsi pokok hutang yang telah ditentukan adalah skema pembayaran KKB jenis…",
+      answer: "Balloon Payment",
+    },
+    {
+      question: "Salah satu keunggulan melakukan transfer melalui BI Fast adalah..",
+      answer: "Dapat dioperasikan setiap hari selama 24 jam",
+    },
+    {
+      question: "Bulan lalu, Cabang A mengalami suatu kendala. Tim dari Cabang A mengetahui solusi nya dan mengimplementasikan solusi tersebut. Apakah value yang tepat untuk menggambarkan case tersebut?",
+      answer: "Teamwork",
+    },
+    {
+      question: "The following transaction is not permitted in KlikBCA Individu…",
+      answer: "Account Closure",
+    },
+    {
+      question:
+        "Bapak Fauzan ingin mengambil Kredit Cash Collateral Produk Dana. Beliau akan mengambil pinjaman dengan Agunan Produk Dana Khusus Beda Mata Uang, mata uang agunannya dalam IDR, pinjamannya dalam mata uang Valas senilai USD 100.000,- berapakah nilai agunan yang harus disiapkan oleh Bapak Fauzan jika kurs tengah BCA pada tanggal peminjaman adalah USD 1 = IDR 14.700 serta plafon sama dengan nominal pinjaman yang diajukan?",
+      answer: "IDR 1.837.500.000",
+    },
+    {
+      question: "Pada Bulan lalu, bilyet deposito milik Pak Dillah terbakar seluruhnya. Pak Dillah dapat mengajukan pelaporan atas bilyet nya dengan syarat dokumen yaitu..",
+      answer: "Kartu identitas dan surat keterangan hilang dari kepolisian",
+    },
+    {
+      question: "Kejelasan fungsi dan pelaksanaan pertanggungjawaban organ Perseroan sehingga pengelolaannya berjalan secara efektif masuk ke dalam prinsip pengelolaan tata kelola jenis..",
+      answer: "Akuntabilitas",
+    },
+    {
+      question: "Suatu hari rekan kerja Cindy mengalami kendala dengan user ID nya sehingga rekan kerja nya meminjam user ID Cindy dan Cindy memberikan user ID tersebut. Apakah yang dilakukan Cindy sudah tepat?",
+      answer: "Tidak tepat, karena pada ketentuan pemegang user ID tertulis jika tidak diperbolehkan meminjamkan kepada orang lain",
+    },
+    {
+      question:
+        "Bank yang tidak mempunyai kehadiran secara fisik di wilayah hukum Bank tersebut didirikan dan memperoleh izin, dan tidak berafiliasi dengan kelompok usaha jasa keuangan yang menjadi subyek pengawasan terkonsolidasi yang efektif dapat disebut sebagai..",
+      answer: "Shell Bank",
+    },
+    {
+      question: "The interbank transfer service available through m-BCA are…",
+      answer: "Realtime Online and BI-FAST",
+    },
+    {
+      question: "Berikut ini yang termasuk pemberian kredit yang dilarang adalah…",
+      answer: "Memberikan kredit (dalam mata uang rupiah dan/atau valas) yang ditujukan untuk usaha yang bersifat spekulatif, perjudian dan pencucian uang",
+    },
+    {
+      question:
+        "Handoko akan membeli 3 produk Obligasi Pasar Sekunder pilihan melalui Welma yang terdiri dari 2 produk dalam mata uang IDR sejumlah Rp.155 juta dan 1 produk dalam mata uang USD sejumlah USD 10.000,-. Berapakah Jumlah dana yang harus dikeluarkan dari rekening Handoko untuk pembelian Obligasi tersebut jika ditambahkan dengan biaya custodian dan PPN 11%?",
+      answer: "Rp.155.105.450 + USD 10.000",
+    },
+    {
+      question: "Produk perbankan elektronik yang dikembangkan dalam rangka memenuhi kebutuhan bisnis nasabah disebut sebagai..",
+      answer: "KlikBCA Bisnis",
+    },
+    {
+      question: "Berikut salah satu yang merupakan cakupan dari Kebijakan Dasar Perkreditan Bank adalah…",
+      answer: "Prinsip Kehati-hatian dalam Perkreditan",
+    },
+    {
+      question: "Pada bulan lalu, Pak Agus melakukan transaksi atas produk reksadana-nya yang dipasarkan di pasar sekunder dengan surat kuasa dikarenakan Pak Agus berhalangan. Berikut ini yang termasuk syarat Transaksi Pak Agus?",
+      answer: "Kartu identitas asli pemberi dan penerima kuasa",
+    },
+    {
+      question: "i. Penurunan suku bunga kredit ii. Tambahan Kredit untuk pelunasan tunggakan kredit iii. Pengurangan Penalti Yang termasuk cara penyelamatan kredit dengan restrukturisasi adalah…",
+      answer: "i dan iii",
+    },
+    {
+      question: "Berikut ini yang bukan tujuan penggunaan sistem BI FAST adalah…",
+      answer: "Mendukung berkembangnya sistem pembelian dan pembayaran secara online maupun offline yang bersifat well-integrated dan dapat dipantau secara realtime",
+    },
+    {
+      question: "Salah satu jenis reward yang dapat diakses oleh nasabah di myBCA mobile maupun web adalah…",
+      answer: "Reward BCA",
+    },
+    {
+      question: "Mrs. Irene wants to take a BCA Secured Personal Loan this month. The maximum Loan To Value that can be given to Mrs. Irene if she chooses Fixed Rate collateral is…",
+      answer: "80% of the market price of the collateral at the time of loan processing or the par value, whicever is less",
+    },
+    {
+      question: "If a debtor has a non-cash collateral credit facility of IDR 400 billion, a cash collateral credit facility of IDR 200 billion, and a KPR BCA Produktif facility of IDR 27 billion, then the debtor is categorized as…",
+      answer: "Debitur Small and Medium Enterprises (SME)",
+    },
+    {
+      question:
+        "Ibu Marlina merupakan debitur BCA dengan agunan Fixed Rate (FR) dengan jangka waktu kredit 2 tahun. Diakhir tahun pertama terjadi penurunan nilai pasar FR sampai 103% presentase secure collateral. Bu Marlina tidak mampu meng-cover kekurangan secure collateral tersebut dalam 5 hari kerja. Tindakan apakah yang dapat diambil dalam kasus Bu Marlina tersebut ?",
+      answer: "Forced Sell Agunan",
+    },
+    {
+      question: 'Kriteria perilaku layanan SMART Solution, tujuan yang ingin dicapai dari kriteria "Lengkapi" adalah…',
+      answer: "Memberikan value dalam bentuk solusi yang menjawab seluruh kebutuhan nasabah",
+    },
+    {
+      question: "Bu Marsha seorang nasabah yang memiliki simpanan sebesar Rp. 2,8 Miliar dan memiliki kewajiban sebesar 500 juta. Berapakah Klaim Penjaminan yang dibayar untuk Bu Marsha? (Mengacu pada nilai simpanan yang dijamin LPS)",
+      answer: "2 Miliar",
+    },
+    {
+      question:
+        "Apabila calon Nasabah/Nasabah/WIC/Beneficial Owner (BO) tergolong berisiko tinggi terhadap kemungkinan pencucian uang dan pendanaan terorisme atau bertransaksi dengan negara berisiko tinggi, maka Bank wajib melakukan prosedur CDD yang lebih mendalam yang disebut dengan..",
+      answer: "Enhanced Due Diligence (EDD)",
+    },
+    {
+      question: "Risiko ketidakcukupan dan/atau tidak berfungsinya proses internal, kesalahan manusia, kegagalan sistem, dan/atau adanya kejadian-kejadian eksternal termasuk dalam jenis risiko ?",
+      answer: "Risiko Operasional",
+    },
+    {
+      question: "BCA LEADER+ menjadi panduan karakter kepemimpinan bagi setiap Leader BCA, salah satu karakter nya adalah Drive & Persistence, yet Patience. Apa yang dimaksud dari karakter tersebut?",
+      answer: "Semangat dan gigih dalam mencapai hasil tanpa tergesa - gesa",
+    },
+    {
+      question: "Dalam menyusun dan menerapkan strategi anti fraud yang efektif, BCA wajib minimal memperhatikan:",
+      answer: "Pengendalian dan pemantauan",
+    },
+    {
+      question: "What is the term or tenor of BCA Personal Loan Products?",
+      answer: "12 months, 24 months and 36 months",
     },
   ];
   const [data, setData] = useState(asset);
@@ -65,7 +376,7 @@ export default function Home() {
     console.log(form.toLowerCase());
     let result = [];
     data.map((item) => {
-      if (item.question.includes(form.toLowerCase())) {
+      if (item.question.toLowerCase().includes(form.toLowerCase())) {
         result = [...result, item];
       }
     });
@@ -107,18 +418,14 @@ export default function Home() {
               {data.map((item, index) => (
                 <div className={styles.card} key={index}>
                   <div className={styles.qustionContainer}>
-                    <span className={styles.question}>{item.question}</span>
+                    <span className={styles.question}>
+                      <p style={{ fontWeight: 800 }}>SOAL : </p>
+                      {item.question}
+                    </span>
                     {/* <span className={styles.questionChoice}>{item.question.slice(0, number)}</span>
                     <span className={styles.question}>{item.question.slice(number)}</span> */}
                   </div>
-                  <div className={styles.answerContainer}>
-                    {item.answer.map((item, index) => (
-                      <p key={index} className={item[1] ? styles.answerTrue : styles.answerFalse}>
-                        {(index === 0 ? "A. " : index === 1 ? "B. " : index === 2 ? "C. " : "D. ") + item[0]}
-                      </p>
-                    ))}
-                  </div>
-                  <p className={styles.answerFinal}>{item.answer[0][1] ? "Jawaban : A" : item.answer[1][1] ? "Jawaban : B " : item.answer[2][1] ? "Jawaban : C " : "Jawaban : D"}</p>
+                  <p className={styles.answerFinal}>{"JAWABAN : " + item.answer}</p>
                 </div>
               ))}
             </div>
