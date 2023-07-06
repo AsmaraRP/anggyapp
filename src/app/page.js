@@ -579,14 +579,12 @@ export default function Home() {
   };
 
   useEffect(() => {
-    console.log(form.toLowerCase());
     let result = [];
     data.map((item) => {
       if (item.question.toLowerCase().includes(form.toLowerCase())) {
         result = [...result, item];
       }
     });
-    console.log(result);
     setData(result);
   }, [form]);
 
