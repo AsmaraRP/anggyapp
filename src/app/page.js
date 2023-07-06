@@ -400,7 +400,7 @@ export default function Home() {
     },
     {
       question: "Untuk menanamkan visi BCA, setiap harinya Insan BCA berusaha untuk mencapai target dan menyelaraskan tujuan bersama yang tercermin dalam slogan...",
-      answer: "One Soul???",
+      answer: "One Goal",
     },
     {
       question: "Berikut yang merupakan ketentuan Nominal pada Warkat yang digunakan dalam kliring lokal adalah",
@@ -473,11 +473,6 @@ export default function Home() {
       answer: "Giro Rupiah and Giro Valas",
     },
     {
-      question:
-        "Fasilitas pembayaran KKB yang diberikan kepada debitur dengan angsuran yang ringan pada awal realisasi kredit dan akan berjenjang naik setiap periode dengan proporsi pokok hutang yang telah ditentukan adalah skema pembayaran KKB jenis…",
-      answer: "Flexy Installment",
-    },
-    {
       question: "Berikut ini yang tidak termasuk cara pelunasan/pembayaran fasilitas kredit investasi adalah..",
       answer: "Pembayaran cicilan besar di depan, secara bertahap cicilan mengecil dibelakang",
     },
@@ -522,10 +517,6 @@ export default function Home() {
     {
       question: "Fasilitas kredit dengan agunan berupa produk investasi untuk tujuan pembiayaan konsumsi dan karakteristik tertentu adalah",
       answer: "BCA Secured Personal Loan",
-    },
-    {
-      question: "Pada bulan lalu, terdapat nasabah KPR Berbunga Tetap melakukan pelunasan dipercepat tanpa dikenakan penalti pada saat trend suku bunga sedang turun. Faktor penyebab hal ini terjadi masuk ke dalam kategori risiko…",
-      answer: "Yield Curve Risk",
     },
     {
       question:
