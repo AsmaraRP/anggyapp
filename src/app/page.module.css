@@ -97,6 +97,13 @@
   color: #000;
   font-size: 26px;
 }
+.amountQuestion {
+  color: #000;
+  font-size: 14px;
+  font-style: italic;
+  align-self: flex-end;
+  margin-right: 10px;
+}
 .topContainer {
   flex: 0.6;
   display: flex;

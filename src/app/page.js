@@ -167,11 +167,7 @@ export default function Home() {
     },
     {
       question: 'BCA menerapkan lima prinsip dasar yang berpedoman pada berbagai ketentuan dan peraturan perundang-undangan yang berlaku. Salah satu prinsipnya yaitu "Transparansi". Apa yang dimaksud transparansi dalam prinsip dasar BCA ?',
-      answer: "",
-    },
-    {
-      question: "Keterbukaan dalam mengemukakan informasi yang material dan relevan serta keterbukaan dalam proses pengambilan keputusan.",
-      answer: "",
+      answer: "Keterbukaan dalam mengemukakan informasi yang material dan relevan serta keterbukaan dalam proses pengambilan keputusan.",
     },
     {
       question:
@@ -191,10 +187,6 @@ export default function Home() {
       question:
         "Pak Ari seorang wiraswasta mendatangi kantor Cabang BCA untuk melakukan pembukaan rekening Tahapan anaknya yang masih berumur dibawah 17 tahun. Berdasarkan kondisi tersebut manakah yang bukan merupakan persyaratan pembukaan rekening perseorangan belum dewasa (WNI) diwakili orang tua?",
       answer: "Surat Penetapan Pengangkatan Wali dari Pengadilan Negeri",
-    },
-    {
-      question: "Bulan lalu, Cabang A mengalami suatu kendala. Tim dari Cabang A mengetahui solusi nya dan mengimplementasikan solusi tersebut. Apakah value yang tepat untuk menggambarkan case tersebut?",
-      answer: "Continuous Pursuit of Excellence",
     },
     {
       question: "Berikut ini yang bukan termasuk ketentuan karyawan BCA dalam penggunaan sosial media, internet dan email adalah…",
@@ -233,7 +225,7 @@ export default function Home() {
     {
       question:
         "Fasilitas pembayaran KKB yang diberikan kepada debitur dengan angsuran yang ringan pada awal realisasi kredit dan akan berjenjang naik setiap periode dengan proporsi pokok hutang yang telah ditentukan adalah skema pembayaran KKB jenis…",
-      answer: "Balloon Payment",
+      answer: "Flexy Installment",
     },
     {
       question: "Salah satu keunggulan melakukan transfer melalui BI Fast adalah..",
@@ -348,6 +340,229 @@ export default function Home() {
       question: "What is the term or tenor of BCA Personal Loan Products?",
       answer: "12 months, 24 months and 36 months",
     },
+    {
+      question: "Berikut ini yang tidak termasuk dalam kode etik perseroan adalah….",
+      answer: "Tanggung Jawab",
+    },
+    {
+      question: "Berikut ini yang merupakan kredit yang mengandung risiko tinggi dan perlu dihindari adalah",
+      answer: "Kredit yang memerlukan keahlian khusus yang tidak dimiliki oleh bank",
+    },
+    {
+      question: "The following are not included in the conditions for closing a BCA Dollar accounts with special treatment, is…",
+      answer: "No balance for 3 consecutive years",
+    },
+    {
+      question:
+        "Ami adalah seorang nasabah Tahapan Xpresi dan setiap Jumat di minggu ketiga akan terjadi pendebetan biaya administrasi secara otomatis. Namun saldo di dalam rekening Ami tidak mencukupi sehingga terjadi gagal debet. Apa yang akan terjadi selanjutnya terkait biaya administrasi rekening Ami?",
+      answer: "Sistem akan melakukan pendebetan ulang sebesar dana yang tersedia pada rekening di hari Senin minggu selanjutnya",
+    },
+    {
+      question: "Pencairan e-Deposito dilakukan oleh nasabah secara langsung melalui myBCA. Nasabah dapat memilih metode pencairan e-Deposito di myBCA. Yang dimaksud dari Metode pencairan segera adalah..",
+      answer: "Pencairan dana yang langsung efektif setelah diproses nasabah. Pencairan hanya dapat dilakukan di hari kerja mulai pukul 07.00 WIB hingga 20.30 WIB.",
+    },
+    {
+      question: "Makna dari Strategi Anti Fraud adalah",
+      answer: "Strategi BCA yang dirancang untuk mengembangkan, menerapkan dan meningkatkan program kepatuhan anti fraud di BCA yang tersusun secara komprehensif integralistik dan diimplementasikan dalam bentuk sistem pengendalian fraud",
+    },
+    {
+      question: "Dinda merupakan seorang pelajar dan ingin membuka rekening SimPel. Syarat yang harus diketahui Dinda sebelum membuka rekening SimPel?",
+      answer: "Berusia dibawah 17 tahun dan belum memiliki kartu identitas",
+    },
+    {
+      question: "The marketing of KPR BCA Products to prospective debtors who are self-employed with the prospective debtors business location different from the lending branch is called…",
+      answer: "Marketing Cross Border",
+    },
+    {
+      question: "Pak Evan mengambil kredit kendaraan bermotor dengan skema flexy installment dan memilih tenor selama 3 tahun. Persentase angsuran dari pokok hutang yang harus dibayarkan Pak Evan pada tahun ke 2 dan 3 adalah sebesar…",
+      answer: "30% dan 50%",
+    },
+    {
+      question: "Berikut yang termasuk sebagai jenis Risiko Pasar adalah:",
+      answer: "Risiko nilai tukar dan Risiko suku bunga",
+    },
+    {
+      question: "Risiko reputasi dapat diartikan sebagai…",
+      answer: "Risiko menurunnya tingkat kepercayaan stakeholder yang bersumber dari persepsi negatif terhadap Perseroan",
+    },
+    {
+      question:
+        "Nurul berniat untuk memulai berinvestasi salah satunya dengan membeli Surat Berharga Negara (SBN). Namun rekening Nurul masih berupa joint account dengan Ibunya. Apakah nurul dapat melakukan investasi Surat Berharga Negara (SBN)?",
+      answer: "Tidak Bisa, Karena SBN adalah single account dan harus menggunakan Nama Investor itu sendiri",
+    },
+    {
+      question: "Berikut yang tidak termasuk dalam jenis rekening dana dapat diblokir dan didebet untuk pembayaran tunggakan BCA Personal Loan adalah...",
+      answer: "Deposito",
+    },
+    {
+      question: "Berikut yang termasuk salah satu Misi BCA, Yaitu..",
+      answer: "Meningkatkan nilai francais dan nilai stakeholder BCA",
+    },
+    {
+      question: "Untuk menanamkan visi BCA, setiap harinya Insan BCA berusaha untuk mencapai target dan menyelaraskan tujuan bersama yang tercermin dalam slogan...",
+      answer: "One Soul???",
+    },
+    {
+      question: "Berikut yang merupakan ketentuan Nominal pada Warkat yang digunakan dalam kliring lokal adalah",
+      answer: "Nominal pada warkat Nota Debet tidak dibatasi",
+    },
+    {
+      question: "Pak Kudrat mengajukan kredit BCA Secured Personal Loan dan mendapatkan plafon sebesar Rp 700 Juta. Berapakah biaya provisi yang harus ditanggung Pak Kudrat?",
+      answer: "Rp 3.500.000",
+    },
+    {
+      question: "Cash Advance merupakan fasilitas penerikan uang dari kartu kredit. Terdapat syarat Cash Advance untuk lokasi pengambilan di Counter BCA Tertentu yaitu..",
+      answer: "Kartu Kredit BCA dan KTP/Paspor",
+    },
+    {
+      question: "Infrastruktur sistem pembayaran Bank Indonesia untuk memfasilitasi pembayaran ritel yang dapat diakses setiap saat dapat disebut sebagai…",
+      answer: "BI-FAST",
+    },
+    {
+      question: "Yang dimaksud dengan Liveness Detection adalah",
+      answer: "Kemampuan sistem dalam mendeteksi objek hidup untuk mencegah pemalsuan identitas",
+    },
+    {
+      question: "Rahmat adalah seorang pelajar yang memiliki Simpanan Pelajar (SimPel) dan ingin melakukan transaksi setoran. Apa yang harus dilakukan oleh Rahmat untuk dapat melakukan transaksi setoran tersebut?",
+      answer: "Transaksi langsung tanpa pengajuan khusus melalui counter",
+    },
+    {
+      question: "Cara memulai menganalisis Transaksi Keuangan Mencurigakan dapat dilakukan dengan mengkategorikan nasabah sebagai Nasabah Risiko Tinggi (NRT). Yang dimaksud dengan NRT adalah..",
+      answer: "Melakukan kegiatan terkait dengan pencucian uang dan/atau pendanaan terorisme, termasuk PEP (Politically Exposed Person)",
+    },
+    {
+      question: "Dalam kebijakan dasar Manajemen Risiko Terintegrasi, BCA sebagai Entitas Utama dari Konglomerasi Keuangan, BCA harus mengelola 10 (sepuluh) jenis risiko, beberapa diantaranya yaitu…",
+      answer: "Hukum, Reputasi, dan Pasar",
+    },
+    {
+      question: "Penyediaan fasilitas kredit baru dan atau tambahan yang digunakan (calon) debitur untuk melunasi sebagian atau seluruh pinjamannya di bank lain/perusahaan non bank/Special Purpose Vehicle (SPV) disebut dengan..",
+      answer: "Pengambilalihan Kredit",
+    },
+    {
+      question: "Giro digunakan untuk transaksi bisnis. Jika nasabah ingin mengajukan sarana transaksi finansial rekening Giro, Maka yang dilakukan nasabah adalah…",
+      answer: "Melakukan pemesanan warkat ke cabang asal",
+    },
+    {
+      question: "Berikut yang benar terkait status penempatan dana 'ARO (Automated Roll Over)' di dalam Deposito adalah..",
+      answer: "Bunga atas penempatan dana dapat ditransfer ke rekening lain di BCA atau bank lain sesuai pilihan nasabah.",
+    },
+    {
+      question: "Berikut ini yang bukan termasuk prosedur pengenalan dan pemantauan profil karyawan dalam penerapan Know Your Employee (KYE) adalah…",
+      answer: "Memastikan bahwa karyawan telah memahami dan menaati kode etik pegawai",
+    },
+    {
+      question: "Sesuai dengan Pedoman Tata Kelola Perusahaan BCA terbitan 31 Desember 2018. Pelaksanaan etika terdapat 2 jenis yaitu Etika Profesi dan Etika Pribadi. Berikut yang bukan merupakan Etika Profesi adalah.",
+      answer: "Menghindari hal - hal yang dapat menimbulkan situasi conflict of interest",
+    },
+    {
+      question:
+        "Mr. Okin is a leader who always understands and feel the condition of other people and able to influence through a persuasive approach. Mr. Okin's behaviour shows the leadership of BCA Leader+ which is concluded in the character..",
+      answer: "Empathy & Persuasiveness",
+    },
+    {
+      question:
+        "Untuk menentukan risk profile BCA secara keseluruhan, Maka risiko terkait TI (Teknologi Informasi) wajib dikaji ulang bersamaan dengan risiko - risiko lainnya. Risiko yang timbul karena ketidakcocokan/ketidaksesuaian TI adalah",
+      answer: "Risiko Strategis",
+    },
+    {
+      question: "Jenis rekening yang dapat didaftarkan sebagai rekening utama KlikBCA Bisnis adalah…",
+      answer: "Tahapan Gold dan Giro Rupiah",
+    },
+    {
+      question: "Giro account has 2 types of transaction facilities, namely…",
+      answer: "Giro Rupiah and Giro Valas",
+    },
+    {
+      question:
+        "Fasilitas pembayaran KKB yang diberikan kepada debitur dengan angsuran yang ringan pada awal realisasi kredit dan akan berjenjang naik setiap periode dengan proporsi pokok hutang yang telah ditentukan adalah skema pembayaran KKB jenis…",
+      answer: "Flexy Installment",
+    },
+    {
+      question: "Berikut ini yang tidak termasuk cara pelunasan/pembayaran fasilitas kredit investasi adalah..",
+      answer: "Pembayaran cicilan besar di depan, secara bertahap cicilan mengecil dibelakang",
+    },
+    {
+      question: "Slogan yang dikumandangkan untuk mengajak seluruh Insan BCA bergerak bersama dengan 1 pemikiran solid bersama berkarya untuk BCA adalah",
+      answer: "One BCA",
+    },
+    {
+      question: "Pada bulan lalu, terdapat nasabah KPR Berbunga Tetap melakukan pelunasan dipercepat tanpa dikenakan penalti pada saat trend suku bunga sedang turun. Faktor penyebab hal ini terjadi masuk ke dalam kategori risiko…",
+      answer: "Optionality Risk",
+    },
+    {
+      question: "Manajemen Risiko disusun untuk mengidentifikasi, mengukur, memantau, dan mengendalikan risiko yang timbul dari seluruh kegiatan usaha BCA. Berikut merupakan tujuan penyusunan Kebijakan Dasar Manajemen Risiko BCA adalah…",
+      answer: "Menyamakan persepsi dalam memandang risiko kepada semua Nasabah",
+    },
+    {
+      question: "Aplikasi yang dapat digunakan oleh nasabah/non nasabah untuk melakukan pengisian form dan/atau reservasi sebelum melakukan transaksi di cabang BCA adalah…",
+      answer: "eBranch BCA",
+    },
+    {
+      question:
+        "Alena adalah nasabah BCA yang ingin memanfaatkan aplikasi remittanceBCA untuk mengirimkan uang valas (OR) kepada saudaranya di luar negeri melalui smartphone. Biaya transaksi sebesar IDR 35.000 yang dibebankan ke Alena merupakan biaya..",
+      answer: "Telegraphic Transfer",
+    },
+    {
+      question:
+        "i. Aktif bertransaksi di BCA, dengan minimal transaksi selama 1 bulan terakhir di all channel lebih dari 9 kali dan total nominal transaksi lebih dari Rp 230 juta. ii. Memiliki outstanding dana di BCA selama 3 bulan dengan ketentuan untuk nasabah individu >= 200 juta dan nasabah organisasi >= 500 juta Kedua hal tersebut merupakan kriteria nasabah?",
+      answer: "BCABIZZ",
+    },
+    {
+      question: "Deva ingin melakukan transaksi penarikan tunai namun Deva lupa membawa kartu ATM miliknya. Hal mandiri yang bisa dilakukan Deva agar bisa melakukan penarikan tunai tanpa harus mengambil kartu ATM miliknya adalah…",
+      answer: "Melakukan transaksi tarik tunai cardless melalui myBCA",
+    },
+    {
+      question: "Kesesuaian pengelolaan Perseroan dengan peraturan perundang-undangan yang berlaku dan prinsip-prinsip pengelolaan bank yang sehat adalah penerapan dari prinsip Tata Kelola Perusahaan yang baik, yaitu..",
+      answer: "Pertanggungjawaban",
+    },
+    {
+      question: "Penyampaian informasi mengenai total dana dan investasi yang dimiliki Nasabah Prima dilakukan sesuai dengan kesepakatan antara BCA dengan Nasabah Prima yang mencakup informasi terkait…",
+      answer: "Informasi rekening kredit, pembiayaan atau pinjaman",
+    },
+    {
+      question: "Fasilitas kredit dengan agunan berupa produk investasi untuk tujuan pembiayaan konsumsi dan karakteristik tertentu adalah",
+      answer: "BCA Secured Personal Loan",
+    },
+    {
+      question: "Pada bulan lalu, terdapat nasabah KPR Berbunga Tetap melakukan pelunasan dipercepat tanpa dikenakan penalti pada saat trend suku bunga sedang turun. Faktor penyebab hal ini terjadi masuk ke dalam kategori risiko…",
+      answer: "Yield Curve Risk",
+    },
+    {
+      question:
+        "Pak Broto nasabah prioritas yang sudah registrasi Vindi secara self service pada smartphonenya. Tujuan Pak Broto adalah agar dapat menganalisa pengeluaran Pak Broto yang melebihi kebiasaannya. Oleh karena itu Pak Broto harus menggunakan fitur ?",
+      answer: "Spending Analysis (Analisis Pengeluaran)",
+    },
+    {
+      question:
+        'Manuel ingin melakukan pengkinian data melalui aplikasi Mobile Halo BCA. Namun pada prosesnya beliau menerima notifikasi dengan pesan "Nomor yang Anda pilih tidak dapat digunakan, mohon gunakan nomor yang lain." Apa yang sebaiknya Manuel lakukan?',
+      answer: "Menunggu 10 menit untuk dapat bisa melakukan request OTP kembali atau Manuel bisa menggunakan nomor handphone yang berbeda.​",
+    },
+    {
+      question:
+        "Pak Nadi mengirimkan Outward Remittance (OR) melalui aplikasi remittanceBCA untuk sewa apartemen di Korea Selatan. Mengingat kebutuhannya sangat mendesak dan harus diterima di hari yang sama oleh pihak pengelola apartemen, apa yang harus atau sebaiknya Pak Nadi lakukan?",
+      answer: "Transaksi pengiriman uang harus dipastikan dilakukan pada hari kerja dan sebelum pukul 15.00 WIB",
+    },
+    {
+      question: "Sesuai dengan Peraturan Otoritas Jasa Keuangan (POJK), berikut ini yang bukan merupakan faktor penilaian penetapan kualitas kredit adalah…",
+      answer: "Tujuan Kredit",
+    },
+    {
+      question: "Mata uang dalam penempatan Term Deposit Valas Devisa Hasil Ekspor Sumber Daya Alam adalah",
+      answer: "US Dollar",
+    },
+    {
+      question: "Mencampurkan dana hasil tindak pidana dengan dana dari hasil kegiatan usaha yang legal dengan tujuan untuk mengaburkan sumber asal dana yang ilegal tersebut, merupakan modus pencucian uang jenis ?",
+      answer: "Mingling",
+    },
+    {
+      question:
+        "Bu Reni (29 tahun) adalah direktur di perusahaan Permen BAC dengan saldo rata rata Rp 525 juta per tahun. Fani (15 tahun) adalah anak dari pemilik perusahaan Permen BAC dimana saldo rata rata Rp 7 Miliar per tahun. Lily (21 tahun) adalah supervisor di perusahaan Permen BAC dengan saldo rata rata Rp 325 juta per tahun. Berdasarkan ketiga profil tersebut, yang memenuhi karakter member BCA Young Community adalah..",
+      answer: "Bu Reni",
+    },
+    {
+      question: "Paket yang diterima oleh nasabah setelah selesai melakukan registrasi KlikBCA Bisnis adalah..",
+      answer: "Flyer BCA dan KeyBCA Instan",
+    },
   ];
   const [data, setData] = useState(asset);
   const handleChangeForm = (e) => {
@@ -413,6 +628,7 @@ export default function Home() {
             <h1 className={styles.headerTitle}>Masukan keywords</h1>
             <div className={styles.topContainer}>
               <input className={styles.keywordForm} id="keyword" name="keyword" type="text" onChange={handleChange} />
+              <p className={styles.amountQuestion}>{"Jumlah Soal : " + asset.length}</p>
             </div>
             <div className={styles.bottomContainer}>
               {data.map((item, index) => (
