@@ -91,7 +91,7 @@ export default function Home() {
     },
     {
       question: "Langkah tambahan yang diterapkan BCA sebagai upaya pengamanan bagi nasabah saat melakukan registrasi myBCA mobile adalah…",
-      answer: "Verifikasi wajah dan verifikasi email",
+      answer: "Verifikasi wajah dan verifikasi OTP",
     },
     {
       question: "Firda sent money to her sister (to other bank) twice via myBCA, once via BI-Fast service and once via RTGS service. What is the transfer fee that Firda paid?",
