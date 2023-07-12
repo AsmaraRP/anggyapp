@@ -11,6 +11,76 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question: "Dedi ingin memanfaatkan layanan VIRA untuk dapat mengetahui informasi kartu kredit yang ia miliki seperti sisa limit, tagihan, dan transaksi yang belum masuk ke billing statement. Langkah apa yang harus Dedi lakukan?",
+      answer: "Dedi harus mendaftarkan customer number/nomor kartu kredit BCAnya melalui channel BCA (registrasi dapat dilakukan melalui aplikasi Chat Banking BCA, m-BCA (BCA mobile), ataupun KlikBCA Individu).",
+    },
+    {
+      question: "Salah satu cakupan penerapan Manajemen Risiko Terintegrasi adalah..",
+      answer: "Kecukupan Kebijakan, Prosedur, dan Penetapan Limit Manajemen Risiko Terintegrasi",
+    },
+    {
+      question:
+        "Diketahui, Pak Agus mengambil KPR BCA. Pada bulan lalu, Pak Agus jatuh sakit dan meninggal dunia karena penyakitnya. Jika Uzi yang merupakan anak sekaligus ahli waris Pak Agus belum dewasa dan tinggal berdua dengan ibu nya, maka pihak yang dapat mewakili ahli waris untuk bertindak secara hukum adalah..",
+      answer: "Orang tua perempuan Uzi",
+    },
+    {
+      question: "Caesar merupakan pemilik KBB organisasi yang ingin melakukan pergantian keyBCA. Dimanakah Caesar dapat melakukan pergantian keyBCA?",
+      answer: "Cabang koordinator KBB",
+    },
+    {
+      question: "Berapakah besar biaya penutupan rekening Tahapan Berjangka sebelum jatuh tempo ?",
+      answer: "1% dari saldo akhir",
+    },
+    {
+      question: "Beberapa aplikasi teruninstall di Handphone Bu Melisa diantaranya m-BCA dan Halo BCA. Apabila Bu Melisa menginstall ulang m-BCA maka hal yang akan terjadi adalah..",
+      answer: "User ID Bu Melisa tidak bisa login di m-BCA sehingga Bu Melisa harus melakukan pengajuan pengaktifan User ID ke BCA",
+    },
+    {
+      question:
+        "Pak Gani memiliki simpanan Tapres dari pertengahan Maret 2022 dan Tapres yang dipunya Pak Gani blended dengan BCA Prioritas GPN nya. Pada akhir bulan Januari 2023, Pak Gani berniat untuk menutup rekening nya. Berapakah biaya yang harus dikeluarkan Pak Gani selama menggunakan Tapres?",
+      answer: "Rp 240.000",
+    },
+    {
+      question: "Berdasarkan list berikut, yang merupakan ketentuan dari BCA Dollar adalah… I. Tidak ada saldo yang ditahan II. Dapat dibuka secara joint account III. Informasi mutasi rekening dalam bentuk Rekening Koran",
+      answer: "I dan III",
+    },
+    {
+      question: "Nasabah mengeluh tidak dapat melakukan transaksi meskipun sudah mencoba berulang-ulang. Dari langkah-langkah berikut, manakah jawaban yang kurang tepat untuk disarankan kepada nasabah?",
+      answer: "Meminta nasabah melakukan pemblokiran rekening",
+    },
+    {
+      question:
+        "Seorang nasabah yang memiliki produk Tahapan Berjangka dengan jangka waktu 36 bulan sejak akhir 2018. Pada pertengahan 2020 kabar duka datang dari Nasabah tersebut yang meninggal dikarenakan kecelakaan lalu-lintas. Berapakah Uang Pertanggungan yang diterima oleh keluarga Nasabah tersebut?",
+      answer: "2 x Uang Pertanggungan Maksimal Rp 1,5 miliar",
+    },
+    {
+      question: "Paket yang diterima oleh nasabah setelah selesai melakukan registrasi KlikBCA Bisnis adalah..",
+      answer: "Flyer BCA dan KeyBCA Instan",
+    },
+    {
+      question:
+        "Apabila nasabah mengajukan keluhan terkait dengan pendaftaran data investor di Welma dengan spesifikasi bahwa nasabah tidak dapat melakukan pendaftaran data investor, maka langkah penanganan yang tepat sebagai solusinya adalah:",
+      answer: "Mengarahkan nasabah untuk melakukan pendaftaran di KCU/KCP BCA yang memiliki layanan BCA Prioritas",
+    },
+    {
+      question:
+        "Niniek ingin melakukan Top Up Sakuku. Niniek memiliki banyak pilihan selain dari melakukannya di ATM BCA, yakni melalui KlikBCA Individu, m-BCA atau e-channel BCA lainnya yang tersedia. Setelah menambahkan dana di Sakuku, Niniek ingin melakukan transaksi transfer. Sayangnya transaksi transfer dimaksud tidak dapat dilakukan. Berikut ini yang merupakan penyebab gagalnya transfer dana Niniek adalah..",
+      answer: "Karena transfer dana ditujukan ke rekening BCA lain dalam mata uang asing",
+    },
+    {
+      question: "Nasabah mengeluh terkait perbedaan antara e-Statement /informasi transaksi nasabah dengan histori transaksi Vindi. Dari beberapa contoh penanganan berikut ini, manakah solusi yang tepat untuk disampaikan kepada nasabah?",
+      answer:
+        "Menginformasikan bahwa Vindi berfungsi sebagai aplikasi analisa pengeluaran, sehingga terdapat kemungkinan perbedaan data dengan e-Statement/informasi transaksi, dan histori transaksi Vindi tidak dapat digunakan sebagai pengganti bukti transaksi",
+    },
+    {
+      question: "Pak Jericho merupakan pengusaha dan merupakan nasabah BCA Prioritas. Pak Jericho memiliki anak bernama Margareth yang saat ini berusia 17 tahun.Apakah Margareth dapat menjadi member BCA Young Community?",
+      answer: " Tidak, karena Margareth belum memenuhi syarat usia meskipun termasuk sebagai nasabah prioritas ",
+    },
+    {
+      question: "If prospective customers want to open a new account online, then the alternative is..",
+      answer: "Open a new account through BCA Mobile",
+    },
+    {
       question:
         "mr. rudi provides support and protection to a fraud whistleblower. Then compiles internal provisions related to fraud complains that occur and also he compiles an effective fraud reporting system that includes clarity of the reporting process, including what pillars of fraud strategy does Mr. Rudi do ?",
       answer: "pillar 2: detection",
@@ -21,7 +91,7 @@ export default function Home() {
     },
     {
       question: "Langkah tambahan yang diterapkan BCA sebagai upaya pengamanan bagi nasabah saat melakukan registrasi myBCA mobile adalah…",
-      answer: "Verifikasi OTP dan verifikasi biometrik",
+      answer: "Verifikasi wajah dan verifikasi email",
     },
     {
       question: "Firda sent money to her sister (to other bank) twice via myBCA, once via BI-Fast service and once via RTGS service. What is the transfer fee that Firda paid?",
@@ -304,7 +374,7 @@ export default function Home() {
     },
     {
       question: "If a debtor has a non-cash collateral credit facility of IDR 400 billion, a cash collateral credit facility of IDR 200 billion, and a KPR BCA Produktif facility of IDR 27 billion, then the debtor is categorized as…",
-      answer: "Debitur Small and Medium Enterprises (SME)",
+      answer: "Coorporate Debtors",
     },
     {
       question:
@@ -317,7 +387,7 @@ export default function Home() {
     },
     {
       question: "Bu Marsha seorang nasabah yang memiliki simpanan sebesar Rp. 2,8 Miliar dan memiliki kewajiban sebesar 500 juta. Berapakah Klaim Penjaminan yang dibayar untuk Bu Marsha? (Mengacu pada nilai simpanan yang dijamin LPS)",
-      answer: "2 Miliar",
+      answer: "1,5 Miliar",
     },
     {
       question:
@@ -334,7 +404,7 @@ export default function Home() {
     },
     {
       question: "Dalam menyusun dan menerapkan strategi anti fraud yang efektif, BCA wajib minimal memperhatikan:",
-      answer: "Pengendalian dan pemantauan",
+      answer: "Kondisi lingkungan intern dan ektern",
     },
     {
       question: "What is the term or tenor of BCA Personal Loan Products?",
@@ -448,7 +518,7 @@ export default function Home() {
     },
     {
       question: "Berikut ini yang bukan termasuk prosedur pengenalan dan pemantauan profil karyawan dalam penerapan Know Your Employee (KYE) adalah…",
-      answer: "Memastikan bahwa karyawan telah memahami dan menaati kode etik pegawai",
+      answer: "Melakukan penelitian melalui internet apabila diperlukan",
     },
     {
       question: "Sesuai dengan Pedoman Tata Kelola Perusahaan BCA terbitan 31 Desember 2018. Pelaksanaan etika terdapat 2 jenis yaitu Etika Profesi dan Etika Pribadi. Berikut yang bukan merupakan Etika Profesi adalah.",
@@ -474,7 +544,7 @@ export default function Home() {
     },
     {
       question: "Berikut ini yang tidak termasuk cara pelunasan/pembayaran fasilitas kredit investasi adalah..",
-      answer: "Pembayaran cicilan besar di depan, secara bertahap cicilan mengecil dibelakang",
+      answer: "Pembayaran pokok dilakukan sekaligus pada akhir periode",
     },
     {
       question: "Slogan yang dikumandangkan untuk mengajak seluruh Insan BCA bergerak bersama dengan 1 pemikiran solid bersama berkarya untuk BCA adalah",
