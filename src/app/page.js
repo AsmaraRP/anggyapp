@@ -86,7 +86,7 @@ export default function Home() {
     {
       question:
         "Apabila nasabah mengajukan keluhan terkait dengan pendaftaran data investor di Welma dengan spesifikasi bahwa nasabah tidak dapat melakukan pendaftaran data investor, maka langkah penanganan yang tepat sebagai solusinya adalah:",
-      answer: "Mengarahkan nasabah untuk melakukan pendaftaran di KCU/KCP BCA yang memiliki layanan BCA Prioritas",
+      answer: "Melakukan pengecekan status SID nasabah di aplikasi Avantrade",
     },
     {
       question:
