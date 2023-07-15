@@ -11,6 +11,32 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question:
+        "Mrs. Aping is a customer of the ABC branch who submitted an application for a letter of reference to BCA in order to open a Giro account at another bank. What is one of the requirements that must be met by Ms. Aping if she wants to submit a letter of reference at another BCA branch?",
+      answer: "Show identity card and verify PIN",
+    },
+    {
+      question: "Tabunganku, merupakan salah satu produk simpanan yang salah satu karakteristiknya adalah berbentuk rekening tabungan. berikut yang merupakan ciri-ciri buku tabunganku adalah...",
+      answer: "terdapat tulisan 'tabunganku' pada cover depan buku serta nomor rekening pada bagian belakang cover depan buku",
+    },
+    {
+      question: "Lenny gagal melakukan transaksi pengecekan saldo kartu flazz di m-BCA. Hal yang dapat menyebabkan kegagalan transaksi pengecekan saldo ini adalah..",
+      answer: "Handphone Lenny tidak memilikifitur near field communication (NFC)",
+    },
+    {
+      question: "yang bukan termasuk kepentingan nasabah dalam penerbitan surat referensi yang diterbitkan oleh BCA atas dasar pengajuan nasabah adalah..",
+      answer: "pembuatan pasport",
+    },
+    {
+      question: "transfer dana dengan mata uang valas ke bank penerima baik di dalam maupun di luar negeri melalui KBB-IS disebut dengan...",
+      answer: "Cross Border Fund Transfer",
+    },
+    {
+      question:
+        "Dalam mengelola risiko konglomerasi keuangan, risiko yang muncul akibat ketidaktepatan dalam pengambilan dan/atau pelaksanaan suatu keputusan serta kegagalan dalam mengantisipasi perubahan lingkungan bisnis, merupakan jenis resiko ?",
+      answer: "Risiko Stratejik",
+    },
+    {
       question: "Dedi ingin memanfaatkan layanan VIRA untuk dapat mengetahui informasi kartu kredit yang ia miliki seperti sisa limit, tagihan, dan transaksi yang belum masuk ke billing statement. Langkah apa yang harus Dedi lakukan?",
       answer: "Dedi harus mendaftarkan customer number/nomor kartu kredit BCAnya melalui channel BCA (registrasi dapat dilakukan melalui aplikasi Chat Banking BCA, m-BCA (BCA mobile), ataupun KlikBCA Individu).",
     },
@@ -33,7 +59,7 @@ export default function Home() {
     },
     {
       question: "Beberapa aplikasi teruninstall di Handphone Bu Melisa diantaranya m-BCA dan Halo BCA. Apabila Bu Melisa menginstall ulang m-BCA maka hal yang akan terjadi adalah..",
-      answer: "User ID Bu Melisa tidak bisa login di m-BCA sehingga Bu Melisa harus melakukan pengajuan pengaktifan User ID ke BCA",
+      answer: "User ID Bu Melisa tetap bisa login di m-BCA tanpa harus melakukan registrasi ulang",
     },
     {
       question:
@@ -108,7 +134,7 @@ export default function Home() {
     {
       question:
         "Pada tahun 2022 kemarin, Pak Joshua mengambil KPR BCA dengan outstanding 700 juta. Bulan April 2023 ini, Pak Joshua ingin memindahkan suku bunga KPR BCA nya ke jenis suku bunga fixed 5 tahun. Untuk perpindahan ini, Pak Joshua harus membayar biaya migrasi sebesar...",
-      answer: "Rp 7.000.000",
+      answer: "Rp 3.500.000",
     },
     {
       question: "Tujuan dari kebijakan BYOD (Bring Your Own Device) adalah..",
@@ -303,7 +329,7 @@ export default function Home() {
     },
     {
       question: "Bulan lalu, Cabang A mengalami suatu kendala. Tim dari Cabang A mengetahui solusi nya dan mengimplementasikan solusi tersebut. Apakah value yang tepat untuk menggambarkan case tersebut?",
-      answer: "Teamwork",
+      answer: "Continuous Pursuit of Excellence",
     },
     {
       question: "The following transaction is not permitted in KlikBCA Individu…",
@@ -544,7 +570,7 @@ export default function Home() {
     },
     {
       question: "Berikut ini yang tidak termasuk cara pelunasan/pembayaran fasilitas kredit investasi adalah..",
-      answer: "Pembayaran pokok dilakukan sekaligus pada akhir periode",
+      answer: "Pembayaran cicilan besar di depan, secara bertahap cicilan mengecil dibelakang",
     },
     {
       question: "Slogan yang dikumandangkan untuk mengajak seluruh Insan BCA bergerak bersama dengan 1 pemikiran solid bersama berkarya untuk BCA adalah",
@@ -552,11 +578,11 @@ export default function Home() {
     },
     {
       question: "Pada bulan lalu, terdapat nasabah KPR Berbunga Tetap melakukan pelunasan dipercepat tanpa dikenakan penalti pada saat trend suku bunga sedang turun. Faktor penyebab hal ini terjadi masuk ke dalam kategori risiko…",
-      answer: "Optionality Risk",
+      answer: "Repricing Risk",
     },
     {
       question: "Manajemen Risiko disusun untuk mengidentifikasi, mengukur, memantau, dan mengendalikan risiko yang timbul dari seluruh kegiatan usaha BCA. Berikut merupakan tujuan penyusunan Kebijakan Dasar Manajemen Risiko BCA adalah…",
-      answer: "Menyamakan persepsi dalam memandang risiko kepada semua Nasabah",
+      answer: "Meyakinkan bahwa semua risiko dapat dikendalikan dengan baik",
     },
     {
       question: "Aplikasi yang dapat digunakan oleh nasabah/non nasabah untuk melakukan pengisian form dan/atau reservasi sebelum melakukan transaksi di cabang BCA adalah…",
