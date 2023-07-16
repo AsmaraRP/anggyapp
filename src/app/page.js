@@ -11,13 +11,17 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question: "Salah satu penyelamatan kredit adalah..",
+      answer: "Penyelesaian kredit",
+    },
+    {
       question:
         "Mrs. Aping is a customer of the ABC branch who submitted an application for a letter of reference to BCA in order to open a Giro account at another bank. What is one of the requirements that must be met by Ms. Aping if she wants to submit a letter of reference at another BCA branch?",
       answer: "Show identity card and verify PIN",
     },
     {
       question: "Tabunganku, merupakan salah satu produk simpanan yang salah satu karakteristiknya adalah berbentuk rekening tabungan. berikut yang merupakan ciri-ciri buku tabunganku adalah...",
-      answer: "terdapat tulisan 'tabunganku' pada cover depan buku serta nomor rekening pada bagian belakang cover depan buku",
+      answer: "Nomor rekening, nama pemilik rekening. Cabang tempat rekening dibuka, dan tanda tangan nasabah pada bagian belakang cover depan buku",
     },
     {
       question: "Lenny gagal melakukan transaksi pengecekan saldo kartu flazz di m-BCA. Hal yang dapat menyebabkan kegagalan transaksi pengecekan saldo ini adalah..",
@@ -86,7 +90,7 @@ export default function Home() {
     {
       question:
         "Apabila nasabah mengajukan keluhan terkait dengan pendaftaran data investor di Welma dengan spesifikasi bahwa nasabah tidak dapat melakukan pendaftaran data investor, maka langkah penanganan yang tepat sebagai solusinya adalah:",
-      answer: "Melakukan pengecekan status SID nasabah di aplikasi Avantrade",
+      answer: "Menginformasikann kepada nasabah bahwa tata cara proses pendaftaran data investor melalui Welma dapat dilihat di menu 'Portfolio', 'Profile', dan Products'",
     },
     {
       question:
@@ -134,7 +138,7 @@ export default function Home() {
     {
       question:
         "Pada tahun 2022 kemarin, Pak Joshua mengambil KPR BCA dengan outstanding 700 juta. Bulan April 2023 ini, Pak Joshua ingin memindahkan suku bunga KPR BCA nya ke jenis suku bunga fixed 5 tahun. Untuk perpindahan ini, Pak Joshua harus membayar biaya migrasi sebesar...",
-      answer: "Rp 3.500.000",
+      answer: "Rp 1.750.000",
     },
     {
       question: "Tujuan dari kebijakan BYOD (Bring Your Own Device) adalah..",
