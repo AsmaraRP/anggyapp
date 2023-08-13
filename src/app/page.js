@@ -266,7 +266,7 @@ export default function Home() {
     },
     {
       question: "Berikut ini yang tidak termasuk ketentuan pengelolaan password media sosial untuk korporasi BCA, yaitu …",
-      answer: "Menggunakan password yang sama dengan yang sudah pernah digunakan agar mudah diingat",
+      answer: "Password akun resmi wajib menggunakan strong password",
     },
     {
       question:
