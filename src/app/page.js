@@ -11,6 +11,55 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question:
+        "Gita memiliki rekening tabungan di BCA dengan sisa saldo sebesar Rp 3000. Selama 12 bulan, Gita tidak menabung di rekening nya. Saat ingin menggunakan nya kembali, Gita heran mengapa rekening nya tidak dapat digunakan. Apakah penyebab yang tepat dari kendala yang dialami Gita?",
+      answer: "Rekening Gita ditutup oleh sistem karena saldo dibawah Rp 5000 dan tidak aktif selama 12 bulan berturut - turut",
+    },
+    {
+      question: "Jika dalam sebuah kasus kredit, terdapat tanda-tanda penurunan kualitas kredit. Maka Bank harus…",
+      answer: "Menyusun program penyelesaian masalah kredit",
+    },
+    {
+      question: "Mobile application yang dapat digunakan sebagai sarana pengajuan kerjasama untuk menjadi Merchant BCA​​ dan mengakses berbagai informasi dan layanan untuk merchant adalah…",
+      answer: "Merchant BCA Apps",
+    },
+    {
+      question:
+        "Pak Wahyu ingin mencairkan simpanan e-Deposito dengan kondisi Automatic Roll Over (ARO), namun Pak Wahyu menerima notifikasi dari email nya jika bunga gagal dikreditkan ke rekening Pak Wahyu. Atas kegagalan tersebut, kapan Pak Wahyu akan menerima bunga e-Deposito-nya?",
+      answer: "Pak Wahyu akan menerima bunga pada saat melakukan pencairan rekening",
+    },
+    {
+      question:
+        "Robi merupakan warga negara asing dan baru saja pindah ke indonesia kurang dari 1 tahun. Robi ingin melakukan transaksi di BCA dengan menggunakan Banknotes. Banknotes yang dimiliki Robi adalah pecahan 100 dengan jumlah 100 lembar berseri dalam kondisi tidak terdapat coretan dan lipatan. Apakah mata uang yang digunakan Robi?",
+      answer: "USD",
+    },
+    {
+      question:
+        "Sarah adalah seorang karyawan yang ingin mengajukan kredit untuk membeli mobil baru. Sebagai debitur baru yang belum pernah melakukan pinjaman sebelumnya, Bank melakukan analisa kondisi perusahaan Sarah. Termasuk ke dalam jenis analisa apakah yang dilakukan oleh Bank tersebut?",
+      answer: "Analisa Bonafiditas Debitur",
+    },
+    {
+      question: "Nasabah perlu memberikan akses lokasi perangkat di BCA Mobile saat melakukan transaksi…",
+      answer: "Pembukaan rekening online",
+    },
+    {
+      question: "Keuntungan yang didapat oleh nasabah apabila melakukan penyimpanan barang berharga di Safe Deposit Box (SDB) BCA adalah...",
+      answer: "Barang yang disimpan mendapat pengamanan berupa khazanah dan pintu jeruji",
+    },
+    {
+      question: "Jangka waktu kredit investasi dengan tujuan pembelian kendaraan bermotor untuk usaha adalah…",
+      answer: "6 tahun",
+    },
+    {
+      question:
+        "Jika terdapat seorang Nasabah yang ingin membeli kendaraan bermotor dengan Kredit Kendaraan Bermotor (KKB), Nasabah tersebut harus mengetahui terlebih dahulu minimal plafon yang dapat diberikan. Berapakah minimal plafon yang dapat diberikan kepada Nasabah agar dapat melakukan pembelian dengan KKB?",
+      answer: "50 juta",
+    },
+    {
+      question: "Terdapat beberapa manfaat dari penggunaan KlikBCA Bisnis - Integrated Solution (KBB-IS) untuk Nasabah dan BCA. Berikut yang merupakan manfaat untuk Nasabah KBB-IS adalah..",
+      answer: "Melakukan transaksi perbankan tanpa dibatasi waktu dan tempat",
+    },
+    {
       question: "Langkah awal cara akses Virtual Assistant Chat Banking BCA (VIRA) dengan menggunakan aplikasi Google Assistant adalah",
       answer: "Memberikan input suara atau teks “Bicara dengan Bank BCA”",
     },
@@ -74,7 +123,7 @@ export default function Home() {
     },
     {
       question: "A continuous effort to achieve excellence in order to provide added value to customers, including the following…",
-      answer: "Customer Focus",
+      answer: "Integrity",
     },
     {
       question: "Perangkat-perangkat untuk mengidentifikasi dan menemukan kejadian fraud yang terdapat di dalam pilar deteksi adalah…",
