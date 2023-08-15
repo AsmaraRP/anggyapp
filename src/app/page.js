@@ -11,6 +11,29 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question: "Rafael merupakan nasabah yang sering menggunakan layanan ATS Online. Pada suatu hari, Rafael ingin melakukan perubahan rekening menjadi Tahapan di kantor cabang Cibubur. Apakah persyaratan yang harus dibawa Rafael?",
+      answer: "Membawa kartu identitas dan Buku Tahapan Gold yang lama",
+    },
+    {
+      question: "Abraham adalah nasabah yang sedang mengantri lama di Cabang BCA untuk melakukan transaksi. Apakah yang dapat Abraham lakukan agar lebih efisien saat melakukan transaksi selanjutnya di Cabang?",
+      answer: "Abraham dapat menggunakan e-branch untuk reservasi ke cabang",
+    },
+    {
+      question:
+        "Seorang karyawan mengambil produk simpanan dalam jangka waktu 6 bulan dan sudah memiliki Bilyet. Pada suatu hari karyawan tersebut kehilangan Bilyetnya karena terjadi kebakaran. Hal yang harus dilakukan karyawan tersebut jika ingin tabungannya tetap dicairkan adalah...",
+      answer: "Karyawan tersebut melaporkan kepada pihak bank dengan membawa surat keterangan hilang dari kepolisian",
+    },
+    {
+      question:
+        "Untuk mempermudah transaksi bisnisnya, Pak Yusuf menggunakan salah satu produk simpanan yang di miliki BCA, yaitu Giro. Pada suatu hari pak Yusuf mendapatkan info jika Pak Yusuf terpilih untuk mendapatkan suku bunga khusus dari BCA. Mengapa Pak Yusuf bisa terpilih untuk mendapatkan suku bunga khusus?",
+      answer: "Karena Pak Yusuf memenuhi syarat yang berlaku berdasarkan pertimbangan funding, lending, dan transaksi yang dilakukan.",
+    },
+    {
+      question:
+        "Pak Rahmat menceritakan kepada tetangga nya mengenai rekening tabungan yang mempunyai setoran awal sebesar Rp 20 ribu serta mendapatkan bukutabungan. Tetangga Pak Rahmat ternyata tertarik dengan produk simpanan yang tidak menggunakan buku tabungan. Apakah respon yang tepat dari Pak Rahmat kepada tetangganya?",
+      answer: "Pak Rahmat menyarankan menggunakan produk simpanan BCA yang lain dikarenakan yang beliau ceritakan adalah produk simpanan Tabunganku",
+    },
+    {
       question:
         "Gita memiliki rekening tabungan di BCA dengan sisa saldo sebesar Rp 3000. Selama 12 bulan, Gita tidak menabung di rekening nya. Saat ingin menggunakan nya kembali, Gita heran mengapa rekening nya tidak dapat digunakan. Apakah penyebab yang tepat dari kendala yang dialami Gita?",
       answer: "Rekening Gita ditutup oleh sistem karena saldo dibawah Rp 5000 dan tidak aktif selama 12 bulan berturut - turut",
@@ -123,7 +146,7 @@ export default function Home() {
     },
     {
       question: "A continuous effort to achieve excellence in order to provide added value to customers, including the following…",
-      answer: "Integrity",
+      answer: "Continuous Improvement of Excellence",
     },
     {
       question: "Perangkat-perangkat untuk mengidentifikasi dan menemukan kejadian fraud yang terdapat di dalam pilar deteksi adalah…",
