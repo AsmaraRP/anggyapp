@@ -11,661 +11,617 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
-      question: "Rafael merupakan nasabah yang sering menggunakan layanan ATS Online. Pada suatu hari, Rafael ingin melakukan perubahan rekening menjadi Tahapan di kantor cabang Cibubur. Apakah persyaratan yang harus dibawa Rafael?",
-      answer: "Membawa kartu identitas dan Buku Tahapan Gold yang lama",
-    },
-    {
-      question: "Abraham adalah nasabah yang sedang mengantri lama di Cabang BCA untuk melakukan transaksi. Apakah yang dapat Abraham lakukan agar lebih efisien saat melakukan transaksi selanjutnya di Cabang?",
-      answer: "Abraham dapat menggunakan e-branch untuk reservasi ke cabang",
+      question: "In SENADA, the color that illustrated loyalty, trust, wisdom, and confidence is…",
+      answer: "Blue",
     },
     {
       question:
-        "Seorang karyawan mengambil produk simpanan dalam jangka waktu 6 bulan dan sudah memiliki Bilyet. Pada suatu hari karyawan tersebut kehilangan Bilyetnya karena terjadi kebakaran. Hal yang harus dilakukan karyawan tersebut jika ingin tabungannya tetap dicairkan adalah...",
-      answer: "Karyawan tersebut melaporkan kepada pihak bank dengan membawa surat keterangan hilang dari kepolisian",
+        "Patricia melakukan registrasi untuk melakukan investasi Surat Berharga Negara (SBN), Namun Patricia menemukan data diri yang tertampil pada layar registrasi tidak sesuai dengan data diri nya saat ini. Apakah yang sebaiknya dilakukan oleh Patricia?",
+      answer: "Melakukan pengkinian data di kantor cabang terdekat",
+    },
+    {
+      question: "Pada kegiatan transfer dana antar Bank, transaksi pembayaran yang dilakukan secara elektronik tanpa adanya intervensi secara manual dapat disebut sebagai…",
+      answer: "Straight-through processing",
     },
     {
       question:
-        "Untuk mempermudah transaksi bisnisnya, Pak Yusuf menggunakan salah satu produk simpanan yang di miliki BCA, yaitu Giro. Pada suatu hari pak Yusuf mendapatkan info jika Pak Yusuf terpilih untuk mendapatkan suku bunga khusus dari BCA. Mengapa Pak Yusuf bisa terpilih untuk mendapatkan suku bunga khusus?",
-      answer: "Karena Pak Yusuf memenuhi syarat yang berlaku berdasarkan pertimbangan funding, lending, dan transaksi yang dilakukan.",
+        "Jika dalam suatu kasus izin usaha bank dicabut dan seorang nasabah melakukan pengajuan klaim penjaminan, berapakah pembayaran klaim penjaminan oleh LPS atas simpanan nasabah sebesar Rp 3.5 miliar dimana ia juga memiliki kewajiban ke bank sebesar Rp 600 juta ?",
+      answer: "Rp 1,4 miliar",
+    },
+    {
+      question: "Working capital loans that are withdrawn using a Letter of Request for Withdrawal of Credit Facilities / Payment Extension (SPPFK) for a certain period of time is the condition of the credit product..",
+      answer: "Time Loan",
     },
     {
       question:
-        "Pak Rahmat menceritakan kepada tetangga nya mengenai rekening tabungan yang mempunyai setoran awal sebesar Rp 20 ribu serta mendapatkan bukutabungan. Tetangga Pak Rahmat ternyata tertarik dengan produk simpanan yang tidak menggunakan buku tabungan. Apakah respon yang tepat dari Pak Rahmat kepada tetangganya?",
-      answer: "Pak Rahmat menyarankan menggunakan produk simpanan BCA yang lain dikarenakan yang beliau ceritakan adalah produk simpanan Tabunganku",
+        "Provisions in the law that prohibit the board of Directors, Commisioners, management or employees of the Bank from informing the Customers or the parties, in any way, about the Suspicious Financial Transaction reports is called the…",
+      answer: "Anti-Tipping off",
     },
     {
       question:
-        "Gita memiliki rekening tabungan di BCA dengan sisa saldo sebesar Rp 3000. Selama 12 bulan, Gita tidak menabung di rekening nya. Saat ingin menggunakan nya kembali, Gita heran mengapa rekening nya tidak dapat digunakan. Apakah penyebab yang tepat dari kendala yang dialami Gita?",
-      answer: "Rekening Gita ditutup oleh sistem karena saldo dibawah Rp 5000 dan tidak aktif selama 12 bulan berturut - turut",
+        "Pak Ares sebagai komisaris dari PT Maju Bersama berencana memperluas jaringan usahanya di bidang budidaya ikan Nila. Untuk itu Pak Ares mengajukan kredit dengan Agunan sertifikat tanah kepada bank BCA di tahun 2023. Berikut yang bukan kriteria sertifikat tanah yang boleh diajukan oleh Pak Ares adalah :",
+      answer: "Sertifikat yang dibeli dari yayasan dan telah dibalik nama ke Pak Ares di tahun 2021",
     },
     {
-      question: "Jika dalam sebuah kasus kredit, terdapat tanda-tanda penurunan kualitas kredit. Maka Bank harus…",
-      answer: "Menyusun program penyelesaian masalah kredit",
+      question: "The Smart Solution Program that provides education infrastructure development, teacher capability development, facilities and infrastructure as well as student coaching is…",
+      answer: "BCA Bakti assisted school",
     },
     {
-      question: "Mobile application yang dapat digunakan sebagai sarana pengajuan kerjasama untuk menjadi Merchant BCA​​ dan mengakses berbagai informasi dan layanan untuk merchant adalah…",
+      question: "BCA KlikPay payments cannot be made using…",
+      answer: "KlikBCA Bisnis",
+    },
+    {
+      question:
+        "Vincent selalu melakukan pengecekan kembali saat tugas nya sudah selesai untuk memastikan apakah yang dikerjakannya sesuai dengan yang diinstruksikan, mulai dari konten, tata bahasa serta penulisan tanda baca. Apakah kriteria dari SMART Solution yang digambarkan oleh Vincent?",
+      answer: "Vincent menggambarkan kriteria Teliti karena selalu memberikan hasil kerja dan informasi yang akurat",
+    },
+    {
+      question:
+        "Berdasarkan poin- poin berikut, manakah yang termasuk dalam aktivitas Aplikasi MyGrowth? i. Melakukan administrasi apresiasi atau saran terkait tata nilai BCA.​ ii. Mengakses dan melakukan update data serta melaksanakan pengembangan pekerja. iii. Melakukan administrasi performance planning dan competency assessment iv. Melakukan administrasi proses coaching dan penilaian prestasi",
+      answer: "i dan iv",
+    },
+    {
+      question: "Untuk mengetahui profil dan tingkat risiko Nasabah Prima, BCA wajib melakukan..",
+      answer: "Enhanced Due Diligince (EDD) dan Risk Based Approach",
+    },
+    {
+      question:
+        "Bu Naya menemukan kejanggalan pada saat mengecek laporan keuangan bulanan yaitu terdapat beberapa pengeluaran yang tertulis di laporan keuangan namun tidak ada realisasinya. Tindakan yang tepat untuk dilakukan oleh pihak manajemen anti-fraud BCA kepada Bu Naya adalah...",
+      answer: "Memberikan dukungan, perlindungan, dan menjamin kerahasiaan data Bu Naya",
+    },
+    {
+      question: "Seorang karyawan tetap BCA merupakan pengguna kartu kredit dan ingin melakukan kenaikan kredit limit sementara. Berapakah yang dapat diberikan kepada karyawan tersebut untuk kenaikan kredit limit sementara?",
+      answer: "Maksimal 2 kali dari kredit limit tetap",
+    },
+    {
+      question: "The following are not types of letters with special formats/layouts available at BCA…",
+      answer: "Cover Letter",
+    },
+    {
+      question: "The four main objectives of BCA's internal Control System are..",
+      answer: "Compliance, Information, Operations, and Risk Culture",
+    },
+    {
+      question: "Miguel is a souvenir seller in a beach tourism area in West Java who wants to apply for business partnership to be able to use the transaction facilities provided by BCA. What is the right application for Miguel to use?",
       answer: "Merchant BCA Apps",
     },
     {
-      question:
-        "Pak Wahyu ingin mencairkan simpanan e-Deposito dengan kondisi Automatic Roll Over (ARO), namun Pak Wahyu menerima notifikasi dari email nya jika bunga gagal dikreditkan ke rekening Pak Wahyu. Atas kegagalan tersebut, kapan Pak Wahyu akan menerima bunga e-Deposito-nya?",
-      answer: "Pak Wahyu akan menerima bunga pada saat melakukan pencairan rekening",
+      question: "Yang bukan merupakan prinsip utama dalam Kode Etik Perseroan adalah..",
+      answer: "Kepemimpinan",
     },
     {
-      question:
-        "Robi merupakan warga negara asing dan baru saja pindah ke indonesia kurang dari 1 tahun. Robi ingin melakukan transaksi di BCA dengan menggunakan Banknotes. Banknotes yang dimiliki Robi adalah pecahan 100 dengan jumlah 100 lembar berseri dalam kondisi tidak terdapat coretan dan lipatan. Apakah mata uang yang digunakan Robi?",
-      answer: "USD",
-    },
-    {
-      question:
-        "Sarah adalah seorang karyawan yang ingin mengajukan kredit untuk membeli mobil baru. Sebagai debitur baru yang belum pernah melakukan pinjaman sebelumnya, Bank melakukan analisa kondisi perusahaan Sarah. Termasuk ke dalam jenis analisa apakah yang dilakukan oleh Bank tersebut?",
-      answer: "Analisa Bonafiditas Debitur",
-    },
-    {
-      question: "Nasabah perlu memberikan akses lokasi perangkat di BCA Mobile saat melakukan transaksi…",
-      answer: "Pembukaan rekening online",
-    },
-    {
-      question: "Keuntungan yang didapat oleh nasabah apabila melakukan penyimpanan barang berharga di Safe Deposit Box (SDB) BCA adalah...",
-      answer: "Barang yang disimpan mendapat pengamanan berupa khazanah dan pintu jeruji",
-    },
-    {
-      question: "Jangka waktu kredit investasi dengan tujuan pembelian kendaraan bermotor untuk usaha adalah…",
-      answer: "6 tahun",
-    },
-    {
-      question:
-        "Jika terdapat seorang Nasabah yang ingin membeli kendaraan bermotor dengan Kredit Kendaraan Bermotor (KKB), Nasabah tersebut harus mengetahui terlebih dahulu minimal plafon yang dapat diberikan. Berapakah minimal plafon yang dapat diberikan kepada Nasabah agar dapat melakukan pembelian dengan KKB?",
-      answer: "50 juta",
-    },
-    {
-      question: "Terdapat beberapa manfaat dari penggunaan KlikBCA Bisnis - Integrated Solution (KBB-IS) untuk Nasabah dan BCA. Berikut yang merupakan manfaat untuk Nasabah KBB-IS adalah..",
-      answer: "Melakukan transaksi perbankan tanpa dibatasi waktu dan tempat",
-    },
-    {
-      question: "Langkah awal cara akses Virtual Assistant Chat Banking BCA (VIRA) dengan menggunakan aplikasi Google Assistant adalah",
-      answer: "Memberikan input suara atau teks “Bicara dengan Bank BCA”",
-    },
-    {
-      question: "i. Kelonggaran waktu pembayaran \n ii. Plafon transfer antar Bank \n iii. Suku Bunga per 4 bulan \n Yang termasuk dalam informasi yang tertera pada tagihan Kartu Kredit adalah..",
-      answer: "i saja",
-    },
-    {
-      question:
-        "Bu Heniza adalah seorang kepala divisi di salah satu cabang BCA. Pada setiap project pekerjaannya, Bu Heniza selalu menginisiasi kerja sama dan mendorong tim-nya untuk terlibat dan berkolaborasi dengan pihak-pihak terkait, guna mencapai tujuan secara optimal. Bu Heniza juga senantiasa memberikan apresiasi secara personal kepada anggota tim yang menjadi motor penggerak di setiap project. Karakter yang dimiliki oleh Bu Heniza adalah penerapan dari BCA Leader+ yaitu...",
-      answer: "Collaboration and Personal Appreciation",
-    },
-    {
-      question:
-        "Penerapan sistem Newbie & Buddy yang bertujuan untuk membentuk lingkungan yang enjoyable agar seluruh insan BCA dapat mencapai prestasi gemilang untuk tujuan yang dapat dinikmati bersama, merupakan makna dari salah satu slogan OneBCA yaitu ...",
-      answer: "One Joy",
-    },
-    {
-      question: "Dalam penerapan Tata Kelola Terintegrasi mencangkup beberapa prinsip salah satunya prinsip kejelasan fungsi dan pelaksanaan tanggung jawab sehingga pengelolaan dapat berjalan efektif yang disebut juga dengan prinsip...",
-      answer: "Accountability",
-    },
-    {
-      question:
-        "Dalam penerapan kebijakan Bring your own device (BYOD), BCA perlu melakukan identifikasi untuk mendeteksi dan/atau mencegah akses tidak sah dan serangan dari atau melalui perangkat pribadi. Pelaksanaan identifikasi dengan cara tersebut disebut dengan…",
-      answer: "Penerapan Intrusion Detection Prevention",
-    },
-    {
-      question:
-        "Dian merupakan seorang pemegang kartu kredit BCA yang berencana untuk menaikkan sementara kredit limit miliknya. Apabila Dian adalah seorang pengusaha dengan pendapatan > Rp 10 juta per bulan, maka periode kenaikan kredit limit sementara yang dapat diberikan oleh BCA adalah…",
-      answer: "Maksimum 6 bulan dan dapat diperpanjang sesuai kebutuhan",
-    },
-    {
-      question: "Pada minggu lalu, terdapat kejadian pusat data komputer mati di salah satu cabang BCA. Untuk mengantisipasi hal tersebut terjadi lagi dikemudian hari, dilakukan disaster recovery yang memiliki tujuan utama untuk…",
-      answer: "Memperkecil dampak kejadian yang dapat menyebabkan gangguan pelayanan kepada para nasabah",
-    },
-    {
-      question: "Pak Fauzi ingin membuka Kartu Kredit Konsumtif dengan tipe kartu yaitu BCA UnionPay yang mempunyai fasilitas Halo BCA Prioritas. Apakah Pak Fauzi dapat membuka Kartu Kredit Konsumtif dengan fasilitas yang diinginkannya?",
-      answer: "Tidak bisa, karena tipe kartu BCA Union Pay tidak mendapatkan fasilitas Halo BCA Prioritas",
-    },
-    {
-      question:
-        "Pak Matius dan Pak Markus adalah pengusaha di bidang pariwisata, sedangkan Pak Lukas adalah seorang pengusaha di bidang produksi. Pak Matius, Pak Markus, dan Pak Lukas memiliki fasilitas kredit dari beberapa cabang. Pak Matius merupakan debitur pada cabang Pontianak, sedangkan Pak Markus dan Pak Lukas merupakan 1 grup debitur pada cabang Singkawang. Berdasarkan kondisi tersebut, agunan debitur manakah yang harus dibuat saling mengikat?",
-      answer: "Pak Markus dan Pak Lukas",
-    },
-    {
-      question: "Membuat checklist pekerjaan secara teratur sebagai sarana monitoring pada saat Work From Home merupakah contoh cerminan dari value ?",
-      answer: "Integrity",
-    },
-    {
-      question: "Sari has just signed up for myBCA, but Sari has not done any financial activation on her mobile number. The features that Sari can access are…",
-      answer: "Administration and Information Features",
-    },
-    {
-      question:
-        "Jika terdapat seorang Nasabah yang ingin membeli motor dengan Kredit Kendaraan Bermotor (KKB), Nasabah tersebut harus mengetahui terlebih dahulu minimal plafon yang dapat diberikan. Berapakah minimal plafon yang dapat diberikan kepada Nasabah agar dapat melakukan pembelian motor dengan KKB?",
-      answer: "50 Juta",
-    },
-    {
-      question: "Jenis produk dana yang disediakan oleh BCA dapat digolongkan dalam 3 (tiga) kelompok besar, salah satu nya adalah..",
-      answer: "Produk Investasi",
-    },
-    {
-      question: "A continuous effort to achieve excellence in order to provide added value to customers, including the following…",
-      answer: "Continuous Improvement of Excellence",
-    },
-    {
-      question: "Perangkat-perangkat untuk mengidentifikasi dan menemukan kejadian fraud yang terdapat di dalam pilar deteksi adalah…",
-      answer: "Whistleblowing, Surprise Audit, Surveillance System",
-    },
-    {
-      question: "The validity period of Prioritas BCA cards is for…",
+      question: "The maximum term of the Installment Loan (IL) Working Capital Loan facility is…",
       answer: "5 years",
     },
     {
-      question: "Berikut yang merupakan 5 Pilar dalam penerapan program APU dan PPT adalah",
-      answer: "Pengawasan aktif Direksi dan Dewan Komisari, Kebijakan dan Prosedur, Pengendalian Intern, Sistem Informasi dan Manajemen, dan Sumber Daya Manusia dan Pelatihan Karyawan",
-    },
-    {
-      question: "Kerugian karena tindakan yang dilakukan pihak ketiga yang dimaksudkan untuk menipu, menyalahgunakan properti atau melanggar hukum, merupakan jenis kejadian risiko operasional berdasarkan kategori?",
-      answer: "Kecurangan ekstern",
+      question: "Berkomitmen memberikan yang terbaik untuk BCA dengan satu semangat dan satu jiwa merupakan salah satu spirit One BCA…",
+      answer: "One Soul",
     },
     {
       question:
-        "Dalam pekerjaan nya sehari - hari, Pak Rinatza melaksanakan pekerjaan sesuai ketentuan dan kode etik perusahaan serta tidak jarang juga, Pak Rinatza melakukan langkah perbaikan jika ada kesalahan. Kriteria apa yang sudah diterapkan dalam Program Smart Solution?",
-      answer: "Teliti",
+        "Bu Rose adalah seorang ibu rumah tangga yang menggunakan m-BCA untuk keperluan sehari-hari nya. Pada Februari lalu, sistem mendeteksi bahwa akun milik Bu Rose selama 30 hari terakhir sudah tidak digunakan lagi untuk bertransaksi. Untuk permasalahan ini, bagaimana cara untuk mengakhiri penggunaan m-BCA nya Bu Rose?",
+      answer: "m-BCA Bu Rose akan tertutup secara otomatis oleh sistem",
     },
     {
-      question: "Michael ingin melakukan transaksi penukaran uang sebesar USD 1,200 dengan pecahan 100 tidak berseri dengan kondisi terlipat. Kondisi banknotes yang dimiliki oleh Michael merupakan kondisi..",
-      answer: "Cap (C)",
+      question: "The following are the products of credit that can be provided in channeling cooperation are..",
+      answer: "People's Business Credit (KUR)",
     },
     {
-      question: "Efforts to place funds generated from a criminal activity into the financial system, including the money laundering stage of the process…",
-      answer: "Placement",
+      question: "Situs BCA yang berisi fitur seputar produk KPR BCA yang meliputi persyaratan KPR, simulasi angsuran KPR, pengajuan KPR secara online, informasi status pengajuan KPR adalah..",
+      answer: "Rumahsaya",
     },
     {
-      question: "Sikap jujur tanpa dipengaruhi pendapat dan pertimbangan pribadi atau golongan dalam mengambil keputusan atau tindakan, merupakan prinsip dalam restrukturisasi kredit yang disebut..",
-      answer: "Objektivitas",
+      question: "Berikut yang bukan termasuk agunan berupa cash collateral atau setara cash collateral yang dapat diterima oleh BCA dari counterparty Kredit Antar Bank adalah…",
+      answer: "Standby L/C non prime bank",
     },
     {
-      question: "BCA dapat melakukan kerja sama dengan perusahaan mitra terkait penawaran produk dan/atau aktivitas tertentu bagi Nasabah Prima dengan memerhatikan prinsip-prinsip kerjasama, salah satu nya yaitu…",
-      answer: "Prinsip Kehati-hatian",
-    },
-    {
-      question: "What types of transactions cannot be served at Mobil Kas Online?",
-      answer: "Account closing",
-    },
-    {
-      question: "Flazz merupakan alat pembayaran elektronik berbentuk kartu dari BCA yang berfungsi sebagai pengganti uang tunai dan memiliki beberapa jenis. Berikut yang merupakan jenis - jenis kartu Flazz yaitu…",
-      answer: "Perdana, Fleet, Unregistered",
+      question: "Basuki memiliki kartu ATM BCA jenis TabunganKu. Jika Basuki ingin melakukan transaksi di ATM, apakah jenis transaksi yang dapat diakses dengan kartu ATM BCA Basuki?",
+      answer: "Transfer ke rekening BCA dan Penarikan Tunai",
     },
     {
       question:
-        "Dalam perjanjian kredit, pemilihan domisili hukum harus dilakukan dengan mempertimbangkan proses gugatan serta menghindari adanya pendelegasian sita eksekusi dan lelang di pengadilan. Jika agunan/jaminan berupa benda tidak bergerak berjumlah lebih dari 1, maka pemilihan domisili hukum dalam perjanjian kredit adalah...",
-      answer: "Sesuai dengan letak agunan yang nilainya tertinggi",
+        "Pak Yadi menggunakan aplikasi MyWiki untuk memudahkan Ia dalam menemukan istilah- istilah yang biasa digunakan di BCA. Suatu ketika Pak Yadi mencari beberapa istilah dan tidak dapat menemukannya dalam MyWiki. Jika Anda adalah rekan kerja Pak Yadi, apa saran paling tepat yang dapat Anda sampaikan?",
+      answer: "Menyarankan Pak Yadi untuk mendaftarkan seluruh istilah dengan ketentuan istilah umum dan tercantum dalam ketentuan yang berlaku",
     },
     {
-      question: "Pilar strategi anti fraud yang memuat perangkat-perangkat yang ditujukan untuk mengurangi potensi terjadinya fraud seperti kesadaran anti fraud, identifikasi kerawanan, kebijakan mengenal pegawai disebut pilar..",
-      answer: "Pencegahan",
+      question: "Kredit modal kerja yang penarikannya dan pelunasannya dapat dilakukan sewaktu-waktu selama jangka waktu fasilitas kredit melalui rekening Giro​ disebut dengan..",
+      answer: "Kredit Lokal",
     },
     {
-      question: "Memastikan penampilan mulai dari menggunakan seragam sesuai ketentuan perusahaan serta memastikan kerapihan dari seragam yang akan dikenakan, menggambarkan salah satu kriteria dari SMART Solution yaitu ...",
-      answer: "Menarik",
+      question: "Bonita melihat teman nya sedang menggunakan layanan debit online. Bonita tertarik untuk menggunakan layanan tersebut. Apakah hal yang harus diperhatikan Bonita sebelum menggunakan layanan debit online?",
+      answer: "Memastikan apakah kartu ATM yang digunakan Bonita adalah kartu paspor BCA berlogo Mastercard",
     },
     {
-      question: "Layanan yang diberikan kepada nasabah pada hari Sabtu dan/atau Minggu di Cabang yang ditunjuk disebut dengan Weekend Banking. Berikut ini yang bukan merupakan tujuan dari Weekend Banking adalah..",
-      answer: "Meningkatkan jumlah transaksi Bank",
-    },
-    {
-      question:
-        "Dira melakukan transfer ke rekening BCA sebanyak 2 kali dengan nominal Rp 1 juta dan Rp 2 juta. Kemudian Dira kembali melakukan 3 kali transfer ke bank lain dengan metode BI FAST dengan nomimal Rp 2,5 juta, Rp 4 juta, dan Rp 8 juta. Berapakah biaya transfer yang dibayarkan oleh Dira ?",
-      answer: "Rp 7,500",
+      question: "Bagaimana cara meminimalkan kemungkinan dampak negatif dari tidak berfungsinya proses intern, kesalahan manusia, kegagalan sistem, dan/atau kejadian-kejadian ekstern ?",
+      answer: "Mengembangkan pemahaman mengenai risiko operasional melalui proses identifikasi sendiri (self identification) dan penilaian sendiri (self assessment) atas risiko operasional dan kontrol yang ada",
     },
     {
       question:
-        "I. Layanan pengambilan dokumen agunan KKB \n II. Transaksi dengan melakukan pengisian slip \n III. Tarikan Giro Rupiah yang selalu dikonfirmasikan \n Manakah yang merupakan Benefit dari Nasabah BCA Solitaire yang sama dengan Benefit Nasabah BCA Prioritas?",
-      answer: "I saja",
-    },
-    {
-      question: "Two types of risk in investing in marketable securities are…",
-      answer: "Market risk and Liquidity risk",
-    },
-    {
-      question: "Web - based application that provide convenience for customers to conduct trade - related transactions via the internet is…",
-      answer: "Client Trade BCA",
-    },
-    {
-      question: "One of BCA's policies to reduce the possibility of operational risk arising from human resources is…",
-      answer: "Training and Development",
+        "Pak Yozi menggunakan Merchant BCA Apps sejak tahun 2020. Pada akhir tahun 2022, Pak Yozi mengakhiri penggunaan Merchant BCA-Apps dengan melakukan uninstall aplikasi nya. Pada Maret 2023, Pak Yozi ingin menggunakan Merchant BCA Apps kembali. Apa yang harus dilakukan oleh Pak Yozi jika User ID nya masih aktif?",
+      answer: "Menginstall Merchant BCA-Apps kembali di handphone",
     },
     {
       question:
-        "BCA dapat menerbitkan beberapa surat sesuai pengajuan dari nasabah dengan batasan-batasan tertentu. Selain Surat Referensi dan Surat Keterangan Dukungan Keuangan dari Bank (SDKB), surat lainnya yang dapat diterbitkan berdasarkan pengajuan dari nasabah, yaitu..",
-      answer: "Surat Legalisasi Rekening",
+        "Andrew merupakan pengguna layanan KeyBCA. Pada satu waktu, KeyBCA response yang diinput pada saat melakukan transaksi selalu ditolak oleh sistem dengan message out of sync. Apa solusi tepat yang dapat diberikan kepada Andrew atas kondisi tersebut?",
+      answer: "Mengganti KeyBCA dengan KeyBCA yang baru",
     },
     {
-      question: "Keuntungan penggunaan aplikasi mobile Halo BCA bagi pengguna adalah..",
-      answer: "Praktis, dapat dilakukan di mana saja",
-    },
-    {
-      question: "Status deposito dibedakan menjadi 3 berdasarkan perpanjangan jangka waktu simpanan. Simpanan yang diperpanjang otomatis saat Deposito jatuh tempo, untuk jangka waktu yang sama adalah...",
-      answer: "ARO Plus (Automated Roll Over Plus)",
-    },
-    {
-      question: "Berikut ini adalah salah satu hal yang perlu diperhatikan pekerja dalam mengakses media sosial internal BCA melalui aplikasi mobile…",
-      answer: "Smartphone yang digunakan untuk menginstal aplikasi mobile media sosial internal BCA harus dipasang password",
+      question: "Fatih merupakan pengguna eBranch BCA. Saat melakukan pengisian mobile form di eBranch BCA, Fatih mendapat nomor referensi. Berapa lama Fatih dapat menggunakan nomor referensi tersebut?",
+      answer: "30 hari sejak pengisian mobile form",
     },
     {
       question:
-        "Pak Herman merupakan seorang Leader dari departemen Learning and Development. Setiap pagi nya Pak Herman selalu mengadakan briefing sebelum bekerja dan selalu menyampaikan terkait nilai - nilai yang terdapat di BCA. Case di atas menggambarkan nilai yang terkandung dalam SENADA, yaitu..",
-      answer: "Dampingi",
-    },
-    {
-      question: "The following is not a type of service that can be done at BCA Express is…",
-      answer: "Deposit placement and disbursement",
-    },
-    {
-      question: "The type of currency in which interbank credit can be granted is in..",
-      answer: "IDR and USD",
-    },
-    {
-      question: "Internal fraud yang terjadi di suatu perseroan dapat diungkapkan apabila nominalnya lebih dari…",
-      answer: "Rp100.000.000",
+        "Pak Purwanto mengajukan KUR di Bank XYZ untuk membiayai usaha toko bangunan miliknya. Lalu istri dari Pak Purwanto mengajukan KUR di BCA untuk membiayai usaha yang sama. Apakah tanggapan yang tepat untuk pengajuan KUR BCA yang diajukan oleh istri Pak Purwanto?",
+      answer: "Istri Pak Purwanto tidak dapat mengambil KUR di BCA dikarenakan sedang menerima KUR dari Bank lain untuk usaha yang sama.",
     },
     {
       question:
-        "Zulfikar mempunyai bisnis yaitu menjual produk handmade. Ia ingin memonitor laporan keuangan dengan KBB (KlikBCA Bisnis), namun ia meminta bantuan kepada Siti sebagai wali nya untuk mengajukan registrasi KBB dengan rekening Zulfikar yang diwakili Siti. Apakah Siti dapat mengajukan registrasi KBB menggunakan rekening tersebut?",
-      answer: "Tidak bisa, karena rekening Siti tidak join account dengan rekening Zulfikar",
+        "Alvin beriniat mengubah kartu fisik yang dimilikinya saat ini menjadi bentuk digital. Salah satu kartu yang ingin diubah Alvin adalah Kartu Paspor BCA yang dimilikinya. Hal yang bisa dilakukan Alvin untuk mengganti kartu paspor fisik menjadi kartu paspor tanpa fisik adalah..",
+      answer: "Melakukan penggantian kartu paspor fisik menjadi kartu paspor tanpa fisik di CS Digital",
+    },
+    {
+      question: "Erlina is the head of finance at a manufacturing company who wants to get her employee's salary payment transaction services automatically with BCA. What type of cooperation does Erlina need?",
+      answer: "Payroll",
     },
     {
       question:
-        "Transaksi antara dua pihak untuk membeli dan menjual valas terhadap rupiah ataupun valas terhadap valas lainnya, dengan harga dan waktu penyerahan yang telah disepakati bersama pada saat transaksi serta melalui transfer ke rekening (tanpa ada fisik valas/banknotes) disebut sebagai transaksi?",
-      answer: "Telegraphic Transfer Valuta Asing (TT Valas)",
-    },
-    {
-      question: "Yang merupakan tahapan pelaksanaan penilaian sendiri risiko operasional adalah",
-      answer: "Identifikasi Risiko, Pengukuran Risiko, Pengendalian Risiko, Pemantauan Risiko",
-    },
-    {
-      question: "Andi seorang pengusaha yang menjual barang elektronik. Andi ingin menggunakan EDC BCA untuk meningkatkan efisiensi proses pembayaran di tokonya. Apakah jenis kerja sama Merchant yang tepat?",
-      answer: "Merchant Reguler",
-    },
-    {
-      question: "Dalam penerapan Program APU dan PPT, kegiatan apa saja yang dilakukan dalam rangka penerapkan kebijakan Customer Due Diligence (CDD) ?",
-      answer: "Identifikasi, verifikasi, dan pemantauan terhadap transaksi agar sesuai dengan profil calon Nasabah, Nasabah, atau Walk In Customer (WIC), dan Beneficial Owner (BO)",
-    },
-    {
-      question: "Andi wants to open a new account, but does not have time to come to the BCA branch. Andi decided to open an account online. What application can be used by Andi to open an account online?",
-      answer: "BCA Mobile",
-    },
-    {
-      question:
-        "Noel seorang nasabah pemegang kartu kredit yang ingin melakukan pendaftaran atas produk asuransi melalui Website BCA. Noel memiliki kartu kredit dengan jenis kartu BCA Visa Corporate. Apakah Noel dapat mengajukan pendaftaran asuransi dengan kartu yang dimilikinya?",
-      answer: "Tidak bisa, karena berlaku untuk Kartu Kredit BCA tujuan konsumtif dan kartu SmartCash",
-    },
-    {
-      question: "Sikap yang teguh dalam menjunjung tinggi kejujuran dan keterbukaan untuk membangun kepercayaan nasabah adalah penerapan dari tata nilai perseroan, yaitu…",
-      answer: "Integritas",
-    },
-    {
-      question:
-        "Bu Zea mendaftarkan diri melalui suatu aplikasi online untuk pengajuan kartu kredit dan sudah terdapat notifikasi approval. Untuk mendapatkan Kartu Kredit secara fisik, Bu Zea mengunjungi cabang BCA terdekat dan bertanya mengenai Kartu Kredit tersebut. Jawaban yang tepat didapati oleh Bu Zea adalah...",
-      answer: "Bu Zea dapat melakukan pencetakan kartu fisik dengan mesin cetak instan pada hari yang sama saat Approval dan memasukan kode referensi ACCO",
-    },
-    {
-      question: "The types of card that can be used to make transaction / digital product service at Digital Customer Service are...",
-      answer: "Xpresi Passport Card",
-    },
-    {
-      question:
-        "Bethany adalah seorang kepala cabang di salah satu cabang BCA. Bethany selalu menyarankan anggota timnya untuk mengikuti training guna mengembangkan kemampuan anggota timnya. Selain itu juga Bethany melakukan private training khususnya untuk anggota timnya yang baru agar dapat berkembang lebih baik di cabangnya. Apakah karakter yang tepat dalam BCA Leader+ yang menggambarkan Bethany?",
-      answer: "Reliable on Growing People",
-    },
-    {
-      question: "Willing and able to deliver more than expected is included in the BCA Leader+ category, namely…",
-      answer: "(+) Extra Mile",
-    },
-    {
-      question: "Nathan ingin mengajukan Kredit Kendaraan Bermotor (KKB) BCA untuk membeli kendaraan bermotor dalam kondisi bekas. Apakah jenis produk dan jenis agunan yang dapat Nathan ambil?",
-      answer: "Jenis produk yaitu KKB Joint Financing dan Jenis Agunan yaitu Kendaraan Bekas",
-    },
-    {
-      question: "Apakah fasilitas pembayaran online atas produk/jasa, dimana nasabah dapat secara langsung melakukan pembayaran pada situs/aplikasi Company Partner yang bekerja sama dengan BCA ?",
-      answer: "OneKlik",
-    },
-    {
-      question: "Layanan Nasabah Prima dapat dibagi menjadi 2 kelompok yaitu…",
-      answer: "BCA Solitaire dan BCA Prioritas",
-    },
-    {
-      question:
-        "Lewis tidak bisa melakukan pengecekan mutasi rekening kartu kredit melalui Virtual Assistant Chat Banking BCA (VIRA). Setelah menyampaikan ke Halo BCA, diketahui bahwa status akun VIRA Lewis saat ini adalah half blocked. Langkah yang dapat dilakukan BCA kepada Lewis terkait hal ini adalah..",
-      answer: "Menginformasikan pada Lewis bahwa akun VIRA saat ini half blocked sehingga perlu untuk melakukan registrasi perbankan akun VIRA dengan menghubungkan kartu dengan user ID yang terdaftar di aplikasi",
-    },
-    {
-      question: "Berikut ini yang tidak termasuk ketentuan pengelolaan password media sosial untuk korporasi BCA, yaitu …",
-      answer: "Password akun resmi wajib menggunakan strong password",
-    },
-    {
-      question:
-        "Roni yang merupakan nasabah pemegang kartu Gold memerlukan uang cash untuk keperluan mendesak sebesar 30jt rupiah. Di lokasi terdekat Roni saat ini terdapat layanan mobil kas online. Transaksi apakah yang dapat Roni lakukan di mobil kas online tersebut?",
-      answer: "Penarikan dana di mobil kas online sebesar Rp 30 juta rupiah",
-    },
-    {
-      question: "Yang dimaksud dengan Operasi Moneter adalah",
-      answer: "Pelaksanaan kebijakan moneter oleh Bank Indonesia dalam rangka pengendalian moneter melalui operasi pasar terbuka dan koridor suku bunga (Standing Facilities).",
-    },
-    {
-      question: "The repayment period for principal and interest installments of an invesment loan is…",
-      answer: "Once a month",
-    },
-    {
-      question:
-        "Apabila seorang teller menggunakan data nasabah produk simpanan untuk kebutuhan pribadi yaitu mendapatkan poin dari suatu program member get member, apakah tindakan yang dilakukan teller tersebut dapat dikategorikan sebagai fraud?",
-      answer: "Ya, termasuk dalam penyimpangan yang sengaja dilakukan, fraud yang tergolong ke dalam pembocoran informasi",
-    },
-    {
-      question: "Andi seorang pengusaha yang menjual barang elektronik. Andi ingin menggunakan EDC BCA untuk meningkatkan efisiensi proses pembayaran di tokonya. Apakah jenis kerja sama Merchant yang tepat?",
-      answer: "Merchant Reguler",
-    },
-    {
-      question: "Customers can book airline tickets and hotel reservation directly through BCA Mobile. BCA Mobile features used for this activity is..",
-      answer: "Lifestyle",
-    },
-    {
-      question: "Tim Pak Yanto senantiasa membimbing, mendukung dan mengayomi rekan kerjanya dalam membuat improvement agar proses kerja lebih baik setiap harinya. Nilai apakah yang diimplementasikan oleh Tim Pak Yanto?",
+        "Pak Yanto senantiasa membimbing timnya dalam membuat improvement di area kerja agar proses kerja lebih baik setiap harinya. Hal ini memotivasi timnya untuk menjadi terlibat aktif dalam program BCA Innovation Award. Nilai apakah yang diimplementasikan oleh pak Yanto ?",
       answer: "Naungi",
     },
     {
       question:
-        "Seorang Nasabah telah terdaftar untuk layanan Klik BCA Individu dan ingin melihat rekening koran elektronik (E-Statement) melalui Klik BCA Individu. Jika ingin melihat rekening koran, apakah jenis transaksi yang diakses oleh Nasabah tersebut?",
-      answer: "KBI (Klik BCA Individu) Versi Full Site",
+        "Aplikasi m-BCA mengalami error selama beberapa hari terakhir yang menyebabkan nasabah tidak bisa melakukan transaksi apapun. Karena error ini, BCA mendapat banyak complain dari nasabah melalui sosial media. Berdasarkan hal ini, proses manajemen risiko terkait teknologi informasi yang wajib dikaji ulang oleh BCA adalah Risko...",
+      answer: "Reputasi",
     },
     {
-      question: "The head of the plane as a symbol of the spearhead of the company that leads to value creation and customer satisfaction is a symbol of the value…",
-      answer: "Customer Focus",
-    },
-    {
-      question: "Salah satu tujuan dari kriteria SMART Solution yang ingin dicapai yaitu memiliki semangat memberikan yang terbaik bagi nasabah internal dan eksternal. Apakah kriteria yang dimaksud?",
-      answer: "Antusias",
-    },
-    {
-      question: "Laura mempunyai fasilitas KPR BCA Produktif sebesar Rp 10 Miliar, fasilitas kredit non cash collateral Rp 7 Miliar dan fasilitas kredit cash collateral Rp 1 Miliar. Kesimpulan yang tepat dari case tersebut adalah..",
-      answer: "Total Eksposur kredit yaitu Rp 18 Miliar, Laura dikategorikan sebagai Debitur SME",
-    },
-    {
-      question: "Makna dari Risiko nilai tukar yang tepat adalah…",
-      answer: "Risiko kerugian akibat pergerakan yang berlawanan dari nilai tukar pada saat bank memiliki posisi terbuka",
+      question: "Berdasarkan opsi berikut, produk yang termasuk sebagai produk untuk modal kerja adalah..",
+      answer: "Kredit Ekspor",
     },
     {
       question:
-        "Bu Wulan merupakan seorang Nasabah yang menggunakan produk Tahapan Berjangka. Jika Bu Wulan ingin melakukan pengecekan saldo, berikut yang tidak termasuk sarana untuk melakukan pengecekan saldo Tahapan berjangka yaitu melalui",
-      answer: "OneKlik",
+        "Untuk mengurangi timbulnya risiko operasional yang berasal dari profil nasabah dan calon nasabah, BCA memiliki Customer Due Diligence (CDD) / Enhanced Due Dilligence (EDD) yang didukung oleh sistem informasi dan sistem pengendalian internal yang efektif dengan tujuan untuk....",
+      answer: "Meminimalkan terjadinya kesalahan dan upaya pencegahan terhadap kejahatan internal",
     },
     {
       question:
-        "Budi sedang berjalan-jalan ke Thailand. Saat berbelanja, Budi ingin melakukan pembayaran secara cashless karena uang tunai yang dibawa-nya kurang. Aplikasi apakah yang dapat Budi gunakan untuk melakukan pembayaran tersebut?",
-      answer: "QRIS di BCA Mobile",
+        "Terdapat suatu proyek yang sedang dijalankan dan melibatkan beberapa tim. Bu Yuriko sebagai project leader membuat jadwal meeting setiap minggu nya agar terjalin komunikasi yang intensif dan setiap tim dapat terlibat dalam penyampaian ide. Apakah nilai pada The BCA Way yang diterapkan oleh Bu Yuriko?",
+      answer: "Team Work",
     },
     {
-      question: "Di bawah ini yang termasuk dari ketentuan pemberian Kredit Kendaraan Bermotor- Joint Financing (KKB-JF) Produktif adalah..",
-      answer: "Nilai KKB-JF Produktif yang dibiayai BCA adalah maksimum 80% dari harga on the road",
-    },
-    {
-      question:
-        "Ibu Bertha berniat untuk menyisihkan sebagian uangnya ke produk Deposito BCA dengan jangka waktu 3 bulan. Saldo awal yang diberikan oleh Ibu Bertha sebesar Rp 150 juta per tanggal 1 Januari 2023 dengan bunga sebesar 4%. Berapakah bunga deposito yang dibayarkan saat jatuh tempo kepada Ibu Bertha jika beliau tidak memperpanjang depositonya? (dengan asumsi 1 bulan= 30 hari, 1 tahun= 360 hari, pajak deposito= 20% dan nominal sama dengan saldo awal)",
-      answer: "Rp1.200.000",
-    },
-    {
-      question: "Terdapat salah satu karakteristik dari Safe Deposit Box (SDB) yaitu Nasabah mengakses SDB secara mandiri tanpa bantuan petugas cabang. Apakah Jenis SDB dengan karakteristik tersebut?",
-      answer: "Robotic Safe Deposit Box (RSDB)",
-    },
-    {
-      question: "Customers can register KlikBCA individual (KBI) through..",
-      answer: "Mesin ATM BCA",
-    },
-    {
-      question: "Last Month, There was a case of trying to avoid reporting by fragmenting transactions. This money laundering action was carried out by many actors. The money laundering mode is categorized into…",
-      answer: "Smurfing",
-    },
-    {
-      question: "Monik melakukan pembelian makanan dan hendak melakukan pembayaran, namun Monik tidak membawa uang cash ataupun kartu debit miliknya. Opsi pembayaran yang dapat dilakukan oleh Monik adalah..",
-      answer: "Membayar menggunakan QRIS",
-    },
-    {
-      question: "Debitur yang memiliki kredit non cash collateral dengan total eksposur kredit per grup debitur > Rp 500 Miliar merupakan kategori kredit produktif yaitu …",
-      answer: "Kredit Korporasi",
-    },
-    {
-      question: "Selain di cabang, nasabah dapat melakukan transaksi pembukaan rekening dan pencetakan kartu rekening Tahapan di...",
-      answer: "CS Digital",
+      question: "Berikut ini yang tidak termasuk pembelian yang bisa dibiayai dengan Investment Financing adalah…",
+      answer: "Tertiary",
     },
     {
       question:
-        "Untuk mengurangi kasus anti fraud Pak Marteen dan tim melakukan sosialisasi kepada pihak internal dan eksternal BCA terkait kebijakan dan komitmen BCA untuk tidak memberikan toleransi pada tindakan fraud. Tindakan yang dilakukan Pak Marteen tersebut merupakan upaya untuk menumbuhkan Anti Fraud Awareness melalui?",
-      answer: "Penyusunan dan Sosialisasi Deklarasi Anti Fraud dan Identifikasi Kerawanan",
+        "Victor merupakan seorang pengusaha muda yang mempunyai bisnis dalam bidang jasa penyewaan mesin. Suatu hari, Victor ingin mengambil KUR dan ingin menjadikan salah satu mesin nya sebagai agunan. Apakah agunan tersebut sudah sesuai dengan jenis yang diterima untuk pengambilan KUR?",
+      answer: "Sudah sesuai, karena mesin adalah salah satu jenis agunan yang bisa diterima ketika pengambilan KUR",
+    },
+    {
+      question: "Berdasarkan list berikut, jenis transaksi reksa dana yang dapat dilakukan di BCA adalah.. I. Pembayaran II. Pembelian Berkala III. Pengalihan IV. Penjualan Kembali",
+      answer: "II, III, dan IV",
+    },
+    {
+      question: "Apakah aplikasi pendukung layanan eService yang digunakan oleh Nasabah..",
+      answer: "Self Service Interaction",
+    },
+    {
+      question: "Makna dari Business Continuity Plan (BCP) adalah",
+      answer: "Proses manajemen terpadu dan menyeluruh mengenai dampak potensi apabila kritikal bisnis dari BCA tidak dapat berfungsi karena adanya gangguan",
     },
     {
       question:
-        "Louis melakukan top up kartu Flazz melalui ATM, namun karena terjadi error saldo kartu Flazz Louis tidak bertambah padahal saldo ATM-nya sudah terdebet. Louis melaporkan hal ini dan pihak BCA akan mengembalikan saldo Louis yang terdebet melalui..",
-      answer: "Transfer ke nomor rekening yang digunakan Louis untuk Top Up",
+        "Ibu Regina melakukan pemesanan Surat Berharga Negara (SBN) via online pada hari Rabu pukul 8.00 pagi dan status pemesanan telah berubah menjadi 'menunggu pembayaran' pada pukul 8.15. Setelah itu Bu Regina melanjutkan pekerjaan-nya dan baru menyadari jika Bu Regina belum melakukan pembayaran di jam 10 Pagi. Apakah Bu Regina masih bisa melakukan pembayaran?",
+      answer: "Bisa, karena paling lambat 3 jam setelah melakukan pemesanan SBN",
+    },
+    {
+      question: "Harta peninggalan milik pewaris yang meninggal dunia yang tidak bisa disimpan/dititipkan/diagunkan kepada BCA adalah…",
+      answer: "Barang yang dijadikan sebagai agunan kredit (fasilitas kredit belum lunas)",
+    },
+    {
+      question: "Kredit yang digunakan untuk melunasi L/C atau SKBDN yang diterbitkan oleh BCA untuk pembiayaan persediaan barang disebut dengan…",
+      answer: "Trust Receipt",
+    },
+    {
+      question: "Salah satu hal yang perlu diperhatikan BCA dalam melaksanakan prosedur Layanan Nasabah Prima adalah…",
+      answer: "Penerapan Program APU dan PPT",
+    },
+    {
+      question: "Kredit Ekspor merupakan kredit modal kerja yang diberikan untuk membiayai kegiatan produksi, pengumpulan, dan penyiapan barang dalam rangka ekspor. Jenis debitur yang dapat diberikan Kredit Ekspor adalah..",
+      answer: "Pemasok",
     },
     {
       question:
-        "Yohanes ingin membuka rekening melalui layanan eService. Yohanes menyiapkan beberapa persyaratan yaitu Data di KTP-el, Foto KTP-el, Guratan tanda tangan, dan Nomor handphone yang sudah terkoneksi dengan fasilitas BCA Mobile. Apakah persyaratan yang disiapkan Yohanes sudah tepat?",
-      answer: "Belum tepat, seharusnya menggunakan nomor handphone yang belum terkoneksi dengan BCA Mobile",
+        "Pak Scotty mengalami kecelakaan dan meninggal dunia bulan lalu. Pak Scotty masih memiliki rekening pinjaman yang mengatas namakan dirinya. Jika ahli waris Pak Scotty tidak dapat menyelesaikan pinjaman Pak Scotty, maka tidak lanjut nya adalah…",
+      answer: "Mengeksekusi agunan",
+    },
+    {
+      question: "Setiap waktu tertentu, rekening Marissa terpotong secara otomatis dalam jumlah tertentu untuk membayar tagihan. Layanan yang Marissa gunakan adalah…",
+      answer: "Autodebet",
     },
     {
       question:
-        "Pak Wonu hendak membeli rumah tinggal dengan Luas Bangunan 70 m2 dengan mengajukan KPR BCA. Pak Wonu saat ini masih lajang. Hasil iDeb (Informasi Debitur) dan Surat pernyataan LTV menunjukkan Pak Wonu telah memiliki fasilitas KPR BCA. Berapakah besaran LTV Maksimum yang didapatkan oleh Pak Wonu untuk fasilitas KPR BCA yang baru diajukan?",
-      answer: "0.9",
-    },
-    {
-      question: "m-BCA account will be closed automatically if it has not been use for any financial or non-financial transaction for a period of…",
-      answer: "5 years",
+        "Kartu Flazz yang digunakan Pak Dony saat ini bersifat unregistered dan sisa saldonya saat ini adalah sebesar Rp2.000.000,-. Pak Dony berencana melakukan top up sebesar Rp500,000,- karena Pak Dony akan melakukan perjalanan jauh. Saldo akhir yang akan terdapat di Kartu Flazz Pak Dony adalah sebesar...",
+      answer: "Rp2.000.000,- karena limit maksimum kartu Flazz Pak Dony adalah sebesar Rp 2.000.000,-",
     },
     {
       question:
-        "Bu Rini berencana untuk mengajukan kredit jangka panjang dengan fasilitas KPR BCA Produktif Rp 1 miliar, fasilitas cash collateral Rp 750 juta dan fasilitas non cash collateral Rp 750 juta. Dengan total eksposur kredit tersebut, Bu Rini termasuk dalam kategori kredit...",
-      answer: "Small and Medium Enterprises (SME)",
+        "Kate berencana untuk mengajukan kredit jangka panjang dengan fasilitas KPR BCA Produktif Rp 25 miliar dan kredit jangka pendek dengan fasilitas Kredit Lokal Rp 12 Miliar. Dengan total eksposur kredit tersebut, Kate termasuk dalam kategori kredit...",
+      answer: "Komersial (M)",
+    },
+    {
+      question: "Berikut ini yang bukan merupakan ketentuan penjaminan KUR BCA adalah..",
+      answer: "Kapasitas daya saing usaha mikro, kecil dan menengah perusahaan penjamin",
+    },
+    {
+      question: "Sebelum seorang nasabah dapat melakukan transaksi debit dengan cara mendekatkan ATM BCA tanpa memasukkan PIN (contactless tanpa PIN), berikut yang bukan merupakan ketentuan pengaturan fitur contactless adalah…",
+      answer: "Mengubah PIN ATM BCA",
     },
     {
       question:
-        'Gideon memiliki kartu ATM Chip dengan Fitur Flazz, Suatu hari Gideon ingin melakukan Top Up Flazz, Namun keluar keterangan pada layar Electronic Data Capture (EDC) yaitu "Proses Kartu Gagal". Apakah penyebab yang tepat dari kendala yang dialami oleh Gideon?',
-      answer: "Kartu ATM chip dengan fitur flazz sudah expired",
+        "Kartu ATM Rieka tertelan di mesin ATM. Lalu Rieka menelfon Halo BCA untuk menceritakan kejadian yang dialami. Solusi dari karyawan BCA kepada Rieka adalah dengan cara memblokir kartu atm dan setelah itu Rieka harus datang langsung ke cabang terdekat. Kriteria apa yang telah diterapkan karyawan BCA tersebut dalam kaitannya dengan Program Smart Solution?",
+      answer: "Telling Solution",
     },
     {
-      question: "If you want to block a credit card, there are several methods you can use. The following is not a way to block a credit card...",
-      answer: "SMS Banking",
+      question: "What currencies cannot be transacted via BCA remittance?",
+      answer: "TRY (Lira Turki), KWD (Dinar Kuwait), KRW (Won Korea Selatan)",
     },
     {
-      question: "Raul merupakan pengusaha yang memerlukan layanan pick up uang tunai. Ia memiliki total nominal transaksi sebesar Rp 250 juta dalam 1 bulan terakhir ini. Raul sudah memenuhi kriteria nasabah…",
-      answer: "BCABIZZ",
+      question: "Angelina merupakan Nasabah Solitaire yang mempunyai kartu Paspor BCA untuk sarana bertransaksi. Berikut informasi yang tercantum pada kartu BCA Solitaire yang memiliki kartu paspor BCA sebagai sarana transaksi, yaitu..",
+      answer: "Nama Nasabah, Nomor Kartu dan Tanggal Kadaluwarsa",
     },
     {
-      question: "Bu Rahmi mempunyai produk simpanan yaitu TabunganKu. Apa saja bukti kepemilikan yang dimiliki Bu Rahmi atas produk simpanan yang ia punya?",
-      answer: "Buku TabunganKu dan fasilitas kartu TabunganKu",
-    },
-    {
-      question:
-        "Bu Anna adalah seorang pensiunan. Meskipun sudah pensiun, Bu Anna memiliki tabungan yang cukup dan ingin memanfaatkannya untuk berinvestasi, sehingga Bu Anna memberikan kuasa penuh kepada putra nya untuk mengelola transaksi investasi. Berdasarkan case tersebut, apakah transaksi produk investasi yang tepat untuk Bu Anna dan putra nya?",
-      answer: "Obligasi",
-    },
-    {
-      question: "Tiga pilar Tata Kelola Keberlanjutan PT BCA Tbk adalah",
-      answer: "Pilar Perbankan Berkelanjutan, Pilar Budaya Berkelanjutan, Pilar Berkarya Memberi Nilai",
-    },
-    {
-      question: "Hans ingin memantau saldo kartu kreditnya secara real time. Rekan kerja Hans menyarankan untuk menggunakan aplikasi perbankan digital myBCA. Apakah saran rekan kerja Hans sudah tepat?",
-      answer: "Sudah tepat, karena pada aplikasi myBCA dapat melihat informasi mengenai transaksi, tagihan dan saldo kartu kredit",
-    },
-    {
-      question: "What is the amount of outstanding funds at BCA in the last 3 months that an individual customer must have to obtain the BCABIZZ service?",
-      answer: "≥ IDR 200 mio",
-    },
-    {
-      question: "Kriteria Reksa Dana yang melakukan investasi paling sedikit 80% dari Nilai Aktiva Bersih dalam bentuk Efek bersifat Ekuitas merupakan salah satu kriteria jenis reksa dana...",
-      answer: "Saham",
-    },
-    {
-      question: "The use of masks and hand sanitizers as well as the application of the Covid Protocol during a pandemic is a reflection of the value of…",
-      answer: "Customer Focus",
-    },
-    {
-      question: "Kina yang merupakan seorang nasabah BCA ingin melakukan pembayaran menggunakan kartu debit di suatu toko. Namun pada toko tersebut tidak tersedia EDC BCA, maka kemungkinan yang terjadi adalah..",
-      answer: "Kina dapat melakukan pembayaran asalkan EDC yg tersedia memiliki logo Maestro dan Mastercard",
+      question: "Seorang Nasabah mengajukan ganti kartu pada BCA Mobile, namun setelah menerima kartu tersebut, Nasabah tidak melakukan aktivasi selama 1 bulan lebih. Apakah yang akan terjadi jika tidak melakukan aktivasi pada kartu?",
+      answer: "Kartu Nasabah akan dihapus oleh sistem dan nasabah mengajukan kartu baru kembali",
     },
     {
       question:
-        "Pada awal tahun, PT Sinar dan PT Cahaya memiliki Limit Grup Debitur Non Bank Kredit Korporasi (Grup ABC) sebesar Rp 3.5 Triliun dengan kondisi PT Sinar sebesar Rp 800 Miliar dan PT Cahaya sebesar Rp 1 Triliun. Bank Terang yang juga merupakan Counterparty BCA dan tergabung dalam Grup ABC memilki eksposur sebesar Rp 1 Triliun. Pada pertengahan tahun, Bank Terang mengajukan kredit tambahan sebesar 500 Miliar, dan PT Sinar juga mengajukan kredit tambahan sebesar Rp 100 M. Sisa availability Limit Grup ABC saat ini menjadi...",
-      answer: "Rp 100 Miliar",
+        "Yani akan melakukan perjalanan ke kantor dengan menggunakan transportasi umum KRL. Saat Yani melakukan tap kartu Flazz untuk masuk stasiun, ternyata akses kartu ditolak karena saldo Yani tidak cukup. Yani juga tidak membawa uang cash di dompetnya. Alternatif yang dapat dilakukan Yani adalah..",
+      answer: "Melakukan Top Up Flazz menggunakan EDC Self Service Top Up Center",
+    },
+    {
+      question: "Which meaning in SENADA is represented by the determination to work together as well as continuous and never-ending assistance?",
+      answer: "Icon",
     },
     {
       question:
-        "Fahira adalah seorang pengusaha yang usahanya berkembang pesat dan kini dia memiliki kebutuhan keuangan yang lebih besar. Fahira memiliki kartu kredit dari BCA dan ingin mengajukan kenaikan kredit limit diatas Rp 50 Juta. Apakah dokumen tambahan yang wajib dilampirkan Fahira?",
-      answer: "Fotocopy NPWP",
+        "Kredit yang diberikan oleh dua atau lebih bank / lembaga pemberi pinjaman lainnya (kreditur) dengan persyaratan dan kondisi (terms and conditions) antara debitur dengan masing-masing kreditur dituangkan dalam Perjanjian Kredit terpisah, namun jaminan yang diberikan saling mengikat dalam satu perjanjian jaminan (security sharing agreement) merupakan pengertian dari skema kredit korporasi...",
+      answer: "Club Deal",
     },
     {
-      question: "Pak Kevin ingin melakukan pembelian voucher isi ulang melalui ATM. Berapakah besaran maksimum dari limit gabungan pembelian voucher melalui ATM maupun delivery channel BCA lainnya?",
-      answer: "Rp2.500.000",
+      question: "Every transaction displayed in Financial Diary (Vindi), will be automatically categorized by the system according to the type of transaction. Which category below is not included in the transaction category at Vindi?",
+      answer: "Loan & Financing",
     },
     {
-      question: "Ketentuan yang harus diperhatikan untuk program cicilan BCA yang diberikan kepada pemegang kartu kredit dengan tujuan konsumtif dan pemegang kartu BCA Smartcash adalah..",
-      answer: "Dapat dilakukan lebih dari satu kali transaksi jika kredit limit masih mencukupi dan Minimum transaksi Rp 500.000 dalam 1 kali transaksi",
+      question: "Azhar ingin menutup rekening Giro, namun Azhar tidak mengetahui dokumen apa saja yang perlu disiapkan sehingga Azhar menelfon ke Halo BCA. Apakah informasi yang tepat untuk disampaikan kepada Azhar?",
+      answer: "Azhar perlu menyiapkan dokumen yaitu Kartu Identitas, Kartu paspor, dan warkat yang belum terpakai",
+    },
+    {
+      question: "Ibrahim berencana melakukan pembayaran kartu kredit non BCA miliknya menggunakan rekening BCA melalui m-BCA. Pembayaran kartu kredit Ibrahim dapat dilakukan dengan cara..",
+      answer: "Dapat menggunakan menu payment",
+    },
+    {
+      question: "Local Loan (KL) is a working capital credit whose withdrawal and repayment can be made at any time during the term of the credit facility where the withdrawal can be made through..",
+      answer: "Current Account",
+    },
+    {
+      question: "Transaksi setoran/tarik tunai bisa dilakukan tanpa kartu dengan cara menginputkan kode berupa 6 digit angka yang didapatkan dari m-BCA ke mesin ATM. Masa aktif kode adalah selama...",
+      answer: "1 jam",
+    },
+    {
+      question: "Pengertian dari Walk In Customer (WIC) adalah…",
+      answer: "Pihak yang menggunakan jasa Bank namun tidak memiliki rekening pada Bank tersebut dan tidak termasuk pihak yang mendapatkan perintah untuk melakukan transaksi atas kepentingan Nasabah",
+    },
+    {
+      question: "Pak Rino meminta Surat Keterangan Dukungan Keuangan dari Bank (SKDB) sebagai surat pernyataan dukungan keuangan dalam jumlah tertentu. Salah satu kemungkinan tujuan Pak Rino meminta SKDB ini adalah..",
+      answer: "Pengajuan tender proyek tertentu",
     },
     {
       question:
-        "Ayu ingin membuka rekening di BCA untuk menabung dan menerima transfer bulanan dari orang tuanya. Ayu datang ke kantor cabang dengan membawa dana untuk setoran awal sebesar Rp 350.000. Dengan jumlah uang tersebut, rekening apakah yang dapat dibuka oleh Ayu?",
+        "Pak Rahmat adalah sosok leader yang memiliki hobi membaca berita dan buku. Seiring dengan perubahan zaman, pak Rahmat merasa harus terus meningkatkan kemampuan dan pengetahuannya. Ia aktif mengikuti training-training dan selalu mengikuti project-project di luar pekerjaan utamanya. Sosok pak Rahmat tersebut menggambarkan karakter BCA Leader+ yang disebut..",
+      answer: "Enhance Learning Agility & Invest in Yourself",
+    },
+    {
+      question:
+        "Pak Abar memiliki beberapa rekening dana di BCA yaitu Giro Rupiah, BCA Dollar dan Tahapan Berjangka . Pada bulan lalu, Pak Abar memiliki tunggakan BCA Personal Loan. Maka rekening dana Pak Abar yang dapat didebet untuk pembayaran tunggakan nya adalah…",
+      answer: "Giro Rupiah",
+    },
+    {
+      question: "Rekening BCA yang dapat digunakan sebagai rekening tujuan hasil inkaso adalah..",
+      answer: "Tapres",
+    },
+    {
+      question:
+        "Bu Giselle melakukan penggantian kartu melalui BCA Mobile dan dikirimkan ke kantor cabang terdekat. Namun Bu Giselle lupa untuk mengambil kartu tersebut lebih dari 60 hari kalender. Apa yang akan terjadi pada kartu yang bu Giselle pesan tersebut?",
+      answer: "Dihancurkan dengan berita acara",
+    },
+    {
+      question: "The symbol of the wings as a counterweight to the running of the plane as we must work together in a team to achieve the company's common goals reflects the value called..",
+      answer: "Teamwork",
+    },
+    {
+      question: "Every Kredit Kendaraan Bermotor (KKB) must be covered with insurance. The following are types of loss insurance, called..",
+      answer: "​Total Lost Only (TLO)",
+    },
+    {
+      question: "Ibu Nabilla mengambil KPR di BCA dan ingin melihat informasi kredit nya di myBCA. Berikut yang bukan merupakan hal yang perlu diperhatikan oleh Ibu Nabilla ketika ingin melakukan akses kredit nya di BCA yaitu..",
+      answer: "Sering melakukan transaksi di myBCA",
+    },
+    {
+      question:
+        "Pak Handi ingin mendaftarkan diri sebagai pemilik Kartu Kredit, oleh karena itu Pak Handi mengakses fitur Mobile Form di eBranch Apps. Namun setelah selesai mengisi form di eBranch Apps, Pak Handi tidak mendapatkan nomor referensi atas pengisian form transaksi. Langkah penanganan mandiri yang dapat dilakukan oleh Pak Handi adalah..",
+      answer: "Mengecek menu Ringkasan Transaksi pada tab Transaksi Tertunda untuk melihat form transaksi yang telah mendapatkan nomor referensi",
+    },
+    {
+      question: "Ensuring the availability of complete, accurate, appropriate and timely reports is the objective of BCA's internal control system in the aspect of…",
+      answer: "Information",
+    },
+    {
+      question: "Ivana merupakan seorang wiraswasta yang ingin mengajukan BCA Personal Loan pada bulan ini. Persyaratan tambahan yang harus diperhatikan Ivana untuk pengajuan-nya adalah..",
+      answer: "Minimum keanggotaan Kartu Kredit BCA selama 1 (satu) tahun",
+    },
+    {
+      question: "Simon ingin mengambil KUR di BCA untuk membuka usaha butik nya, namun jaminan dari kredit tersebut atas nama orang tua Simon. Apakah diperbolehkan jika menggunakan jaminan atas nama orang tua?",
+      answer: "Diperbolehkan, dengan syarat orang tua Simon bersedia menandatangani akte pengikatan agunan (tidak diwakilkan)",
+    },
+    {
+      question:
+        "Seorang Nasabah memiliki keinginan untuk melakukan transaksi Surat Berharga Negara (SBN) rekening Join Account, namun terdapat info jika nasabah tersebut mengalami demensia. Apakah nasabah tersebut diperbolehkan untuk melakukan transaksi SBN dengan rekening Join Account?",
+      answer: "Tidak diperbolehkan, untuk nasabah tersebut diarahkan untuk melakukan pembukaan rekening dana dengan perlakuan khusus",
+    },
+    {
+      question: "Mr. Ridit has a productive KPR BCA facility of IDR 20 billion and a non-collateral cash credit facility of IDR 5 billion. Then Mr.Ridit is categorized as...",
+      answer: "SME Debtors",
+    },
+    {
+      question:
+        "Hugo dan Nikita adalah sepasang suami istri yang bekerja di BCA. Kedua-nya ingin mengajukan KUR namun tidak diperbolehkan dikarenakan status mereka adalah karyawan BCA. Apakah solusi yang tepat jika mereka ingin tetap mengambil KUR di BCA?",
+      answer: "Yang mengajukan KUR adalah anggota keluarga dari Hugo/Nikita, namun pemilik e-KTP dan Surat Izin Usaha atau Surai izin lain nya atas nama cadeb",
+    },
+    {
+      question: "Pak Isa mempunyai sumber dana yaitu Rekening Tabungan BCA dan Kartu Kredit BCA. Jika Pak Isa melakukan transaksi di suatu Merchant dengan sarana Transaksi EDC. Manakah sumber dana yang tepat untuk Pak Isa gunakan?",
+      answer: "Pak Isa dapat menggunakan kedua sumber dana yang dimilikinya",
+    },
+    {
+      question: "Ibu Lisye membutuhkan pembiayaan dari BCA untuk membiayai badan usaha miliknya. Berikut ini adalah persyaratan yang harus dipenuhi oleh Ibu Lisye agar pemberian kredit dapat cair sesuai dengan yang diharapkan adalah…",
+      answer: "Badan usaha yang dibiayai Ibu Lisye juga harus memiliki fasilitas kredit di BCA",
+    },
+    {
+      question:
+        "Seorang nasabah ingin melakukan perjalanan ke Singapura sehingga nasabah tersebut ingin membuka kartu kredit untuk membeli kebutuhan pribadi di Singapura. Apakah jenis kartu kredit berdasarkan prinsipal nya yang tepat untuk nasabah tersebut?",
+      answer: "BCA Card",
+    },
+    {
+      question: "Tindakan pengendalian dilakukan untuk memitigasi risiko operasional dan harus didasarkan pada hasil pengukuran risiko residu yang telah dilakukan atas risiko tersebut. Tindakan mitigasi tersebut antara lain..",
+      answer: "Alih daya pada sebagian kegiatan operasional",
+    },
+    {
+      question: "Analyzing the factors that can affect the level of risk in the future is type of risk…",
+      answer: "Market Risk",
+    },
+    {
+      question: "Ester wants to open a consumer credit card with the card type BCA Mastercard. The transaction facility on the BCA channel that Ester cannot get by using this type of credit card is..",
+      answer: "BCA KlikPay",
+    },
+    {
+      question: "Dandito is a blind person who plans to open a BCA account. The type of account suggested by BCA for Dandito to use is..",
+      answer: "Savings account with passport card facility",
+    },
+    {
+      question: "Timothy pergi ke Cabang untuk membuka Tahapan dengan opsi tidak menggunakan Buku tabungan. Keesokan hari nya Timothy berubah pikiran untuk menggunakan Buku Tabungan. Apakah Timothy bisa melakukan perubahan tersebut?",
+      answer: "Bisa, dengan mengisi Formulir Fasilitas​ (centang pada pilihan “Tahapan/Tahapan Gold Dengan Buku”)",
+    },
+    {
+      question: "Pak Vito berprofesi sebagai karyawan dan berniat untuk mengajukan permohonan KPR dengan gaji yang diperoleh Pak Vitor sebesar Rp12.000.000,-. Berapakah nilai maksimum angsuran yang didapatkan oleh Pak Vito?",
+      answer: "Rp9.000.000,-",
+    },
+    {
+      question: "Mr. Laely plans to apply for a BCA credit card for his business, where the payment of all his credit card bills will be covered by the company. One type of credit card that can be used by Mr.Laely is….",
+      answer: "BCA Visa Corporate",
+    },
+    {
+      question: "Dari fitur-fitur di bawah ini, manakah yang bukan merupakan fitur pada Vindi (Financial Diary) yang dapat digunakan oleh nasabah BCA Prioritas dan BCA Solitaire?",
+      answer: "Payments & Investments History",
+    },
+    {
+      question:
+        "Jika seorang Nasabah Prioritas ingin membuka kartu kredit BCA Amex, maka terdapat beberapa karakteristik dari Kartu Kredit BCA Amex yang perlu diperhatikan. Manakah yang merupakan karakteristik dari Kartu Kredit BCA Amex? I. Terdapat bunga (interest) II. Termasuk charge card, yaitu pembayaran penuh atas semua tagihan III. Dikenakan late charge jika pembayaran dilakukan setelah tanggal jatuh tempo",
+      answer: "II dan III",
+    },
+    {
+      question: "Inkaso masuk dapat diartikan sebagai..",
+      answer: "Proses penerimaan warkat bank lain yang dikirim dari cabang lain untuk dikliringkan ke bank penerbit warkat yang berada di kota/wilayah kliring yang sama dengan cabang penerima warkat",
+    },
+    {
+      question:
+        "Pak Bastan melakukan penyetoran uang tunai menggunakan slip penyetoran sebesar Rp90.000.000,- sebanyak 9 kali, penyetoran slip sebesar Rp130.000.000,- sebanyak 7 kali, dan penyetoran slip sebesar Rp200.000.000,- sebanyak 7 kali dalam jangka waktu kurang dari 3 bulan. Transaksi yang dilakukan Pak Bastan dapat dikategorikan sebagai...",
+      answer: "Transaksi keuangan mencurigakan dengan pola transaksi tunai dalam jumlah besar",
+    },
+    {
+      question: "Perseroan senantiasa memperhatikan kepentingan pemegang saham dan pemangku kepentingan lainnya (stakeholders) berdasarkan asas keadilan dan kesetaraan adalah prinsip dari tata kelola perusahaan, yaitu…",
+      answer: "Fairness",
+    },
+    {
+      question: "Pak Marcus menginginkan pembatalan transaksi pembayaran belanja barang di KlikBCA Individu. Jika Pak Marcus sudah melakukan pembayaran, maka penanganan yang tepat untuk masalah tersebut adalah..",
+      answer: "Menyarankan Nasabah untuk menghubungi Call Centre Company Partner untuk proses penyelesaiannya",
+    },
+    {
+      question: "Ms. Novia is a customer who has been using the Vindi (Financial Diary) app since last year. This month Ms. Novia plans to end her Vindi usage which can be done by..",
+      answer: "Uninstall the Vindi App on the smartphone",
+    },
+    {
+      question: "Pak Agung melakukan perpanjangan kredit dimana keputusan kreditnya telah ada sebelum jatuh tempo kredit. Perpanjangan kredit yang dilakukan oleh Pak Agung ini termasuk kedalam..",
+      answer: "Perpanjangan normal fasilitas kredit",
+    },
+    {
+      question: "Dalam rangka pencegahan penggunaan Bank sebagai sarana atau tujuan pencucian uang dan/atau pencegahan pendanaan terorisme, maka Bank wajib menerapkan Know Your Employee (KYE), yang meliputi..",
+      answer: "Pre-employee screening, pengenalan dan pemantauan terhadap profil karyawan",
+    },
+    {
+      question: "Ozzie adalah nasabah BCA yang baru saja membuka fasilitas m-banking. Ozzie ingin membayar tagihan telepon dan masuk ke menu E-Commerce. Apakah yang dilakukan Ozzie sudah tepat?",
+      answer: "Belum Tepat, seharusnya Ozzie membuka menu M-Payment",
+    },
+    {
+      question:
+        "BCA Secured Personal Loan memiliki salah satu karakteristik dan ketentuan yaitu merupakan fasilitas kredit cash collateral dengan beberapa Agunan. Berikut yang bukan agunan dari karakteristik dan ketentuan tersebut adalah…",
+      answer: "Kontrak Asuransi",
+    },
+    {
+      question: "Jenis rekening yang dapat digunakan sebagai rekening autodebet offline, namun tidak dapat digunakan sebagai rekening autodebet online adalah..",
+      answer: "TabunganKu",
+    },
+    {
+      question: "The type of business debit card (BDC) used for the needs of providing funds/operational needs of business customers to their employees is..",
+      answer: "Petty Cash Card",
+    },
+    {
+      question: "Lio mengajukan fasilitas kredit investasi (KI) jangka menengah untuk modal usahanya. Lio ingin mengetahui kisaran total nilai kredit yang didapatkannya. Dasar perhitungan total nilai kredit Lio adalah..",
+      answer: "Outstanding Pinjaman dan Sisa Plafon yang belum ditarik",
+    },
+    {
+      question: "Rekening join account yang dapat digunakan untuk autodebet online adalah rekening join account dengan status…",
+      answer: "Atau",
+    },
+    {
+      question:
+        "Bu Vivi berencana ingin menggunakan Klik BCA Individu sebagai sarana transaksi mandiri melalui komputer atau smartphone/HP. Berikut yang dapat dilakukan Bu Vivi untuk melalukan transaksi pembelian di Klik BCA Individu, yaitu…",
+      answer: "Voucher untuk PLN Prabayar",
+    },
+    {
+      question: "Application can be used to conduct financial transaction or obtain information related to wealth products marketed by BCA is…",
+      answer: "Welma",
+    },
+    {
+      question: "Terjadi gagal autodebet BPJS pada rekening Natasia pada tanggal 4 September 2023 karena saldo yang tersedia pada rekening Natasia tidak mencukupi. Tindakan selanjutnya yang dilakukan oleh BCA terkait hal ini adalah…",
+      answer: "Melakukan pendebetan kembali ke rekening Natasia pada tanggal 20 September 2023",
+    },
+    {
+      question:
+        "Christofer ingin melakukan pembukaan rekening BCA karena melihat seluruh keluarga nya merupakan nasabah BCA, namun Christofer masih dibawah umur sehingga harus diwakili oleh orang tuanya. Jika pembukaan rekening dilakukan melalui Video Banking, maka data yang harus diisi pada formulir adalah",
+      answer: "Nama Orang Tua, Nomor rekening Orang Tua dan Tanda tangan Orang Tua",
+    },
+    {
+      question:
+        "Pak Adji (60 tahun) merupakan pensiunan karyawan swasta yang saat ini menggeluti bisnis kuliner di kota kelahirannya. Pak Adji adalah pengguna BCA by Phone. Suatu hari ia melakukan salah input response KeyBCA sebanyak 3 kali secara berturut-turut. Bagaimana penanganan kasus pak Adji ?",
+      answer: "Melakukan reset PIN BCA by Phone pada aplikasi CRM",
+    },
+    {
+      question: "Gwen melakukan perpanjangan Tahaka di KBI, namun Gwen ingin saldo dan Bunga Tahaka pada periode sebelumnya dapat dikreditkan ke rekening yang bukan rekening Tahaka. Apakah hal tersebut dapat dilakukan?",
+      answer: "Tidak dapat dilakukan, karena bunga yang telah diperoleh sejak awal pembukaan rekening Tahaka akan tetap didalam rekening Tahaka",
+    },
+    {
+      question: 'Munculnya tulisan "Baca KTP Elektronik gagal" saat melakukan penggantian kartu rusak/hilang di CS Digital bisa terjadi karena beberapa penyebab. Berikut yang bukan penyebab munculnya tulisan tersebut adalah..',
+      answer: "KTP saat di tap lurus dan berada didalam kotak perangkat pembaca KTP elektronik",
+    },
+    {
+      question: "What do people who want to have Tahapan BCA savings account need to know?",
+      answer: "Minimum balance held Rp50.000,- and minimum average balance per month Rp100.000,- after account opening",
+    },
+    {
+      question:
+        "Pak Jamal merupakan nasabah Bank BCA yang menggunakan m-BCA. Pada suatu hari, Pak Jamal ingin melakukan transaksi tanpa kartu, namun Pak Jamal salah menginput kode transaksi sebanyak 3 kali berturut turut, yang mengakibatkan kode transaksi terblokir otomatis. Jika Pak Jamal tetap ingin ber transaksi tanpa kartu, apa yang harus dilakukan Pak Jamal...",
+      answer: "Membuat kode ulang",
+    },
+    {
+      question: "Saat melakukan registrasi myBCA, Ria melakukan kesalahan penginputan alamat email untuk aktivasi. Hal yang perlu diketahui Ria terkait hal ini adalah..",
+      answer: "Ria dapat mendaftar BCA ID kembali dengan alamat email yang benar setelah H+1",
+    },
+    {
+      question:
+        "Pak Amir mengajukan Kredit SME di BCA dengan agunan berupa Banknotes. Setelah berkunjung ke salah satu cabang, ternyata terdapat syarat yang harus dipenuhi oleh Pak Amir agar agunan Banknotes yang dimilikinya dapat diterima BCA, yaitu…",
+      answer: "Seri penerbitan dan pecahan Banknotes Pak Amir masih berlaku",
+    },
+    {
+      question:
+        "Bu Lily ingin mengakses layanan Halo BCA melalui WhatsApp. Bu Lily sudah mendaftarkan nomor telepon seluler resmi BCA pada aplikasi WhatsApp-nya. Apa yang harus dilakukan selanjutnya jika Bu Lily ingin melakukan layanan percakapan online dengan Halo BCA?",
+      answer: "Bu Lily harus mengirimkan pesan dengan mengetik #HaloBCA pada awal percakapan",
+    },
+    {
+      question: "Gwen melakukan perpanjangan Tahaka di KBI, namun Gwen ingin saldo dan Bunga Tahaka pada periode sebelumnya dapat dikreditkan ke rekening yang bukan rekening Tahaka. Apakah hal tersebut dapat dilakukan?",
+      answer: "Tidak dapat dilakukan, karena bunga yang telah diperoleh sejak awal pembukaan rekening Tahaka akan tetap didalam rekening Tahaka",
+    },
+    {
+      question:
+        "Pak Adji (60 tahun) merupakan pensiunan karyawan swasta yang saat ini menggeluti bisnis kuliner di kota kelahirannya. Pak Adji adalah pengguna BCA by Phone. Suatu hari ia melakukan salah input response KeyBCA sebanyak 3 kali secara berturut-turut. Bagaimana penanganan kasus pak Adji ?",
+      answer: "Melakukan reset PIN BCA by Phone pada aplikasi CRM",
+    },
+    {
+      question: "Roy merupakan nasabah dari Tahapan Berjangka siMuda dan ingin melihat e-Statement untuk memonitoring pengeluarannya. Apakah sarana yang tepat untuk digunakan Roy melihat e-Statement?",
+      answer: "myBCA",
+    },
+    {
+      question: "Tahapan Gold account will be closed automatically by the system if the remaining balance is IDR 0 and there are no debit and credit transactions on the account during the time…",
+      answer: "18 months in a row",
+    },
+    {
+      question:
+        "Veni mengalami kendala saat melakukan transaksi penggantian kartu, yaitu mesin tidak mengeluarkan kartu ATM baru. Veni memutuskan untuk membatalkan transaksi dan menarik kartu ATM lamanya kembali, namun mesin CS Digital juga tidak mengeluarkan kartu ATM lama Veni. Hal yang dapat dilakukan Veni atas kendalanya tersebut adalah..",
+      answer: "Melakukan registrasi kartu tertahan dan penggantian kartu di Customer Service",
+    },
+    {
+      question: "Jenis perhitungan angsuran dimana nilai angsuran yang harus dibayar setiap bulan tetap sampai pinjaman lunas disebut dengan…",
+      answer: "Angsuran Anuitas",
+    },
+    {
+      question: "Jasa penagihan yang dilakukan berdasarkan suatu warkat (cek/bilyet giro) kepada pihak yang wajib membayar/pihak tertagih untuk kepentingan dan atas risiko pihak yang memiliki tagihan disebut sebagai..",
+      answer: "Inkaso",
+    },
+    {
+      question: 'Berdasarkan ketentuan, penutupan rekening joint account milik salah satu nasabah yang meninggal dunia dengan status join account "DAN" dilakukan oleh…',
+      answer: "Digantikan oleh ahli waris yang sah",
+    },
+    {
+      question:
+        "Christofer ingin melakukan pembukaan rekening BCA karena melihat seluruh keluarga nya merupakan nasabah BCA, namun Christofer masih dibawah umur sehingga harus diwakili oleh orang tuanya. Jika pembukaan rekening dilakukan melalui Video Banking, maka data yang harus diisi pada formulir adalah",
+      answer: "Nama Orang Tua, Nomor rekening Orang Tua dan Tanda tangan Orang Tua",
+    },
+    {
+      question: "The type of account that cannot be opened in a joint account is..",
       answer: "Tahapan Xpresi",
     },
     {
-      question:
-        "Pada tahun 2022 lalu, Bu Karina seorang karyawan swasta yang berusia 25 tahun mengajukan pinjaman Kredit Kendaraan Bermotor (KKB) beroda 2 dengan Non Performing Loan (NPL) <5%. Maka besaran minimum persentase uang muka yang dibayar oleh Bu Karina adalah sebesar…",
-      answer: "0.15",
-    },
-    {
-      question: "Pak Baim melakukan pencairan Deposito Berjangka Money Market (DBMM) nya pada saat tanggal jatuh tempo yang bertepatan dengan libur nasional. Apakah Pak Baim tetap dapat melakukan pencairan pada tanggal tersebut?",
-      answer: "Tidak, Pencairan dilakukan pada hari kerja berikutnya dengan tetap memperhitungkan bunga",
-    },
-    {
-      question: "Produk tahapan yang digunakan sebagai penyimpanan dana yang ditujukan untuk kebutuhan bisnis adalah…",
-      answer: "Tahapan Gold",
-    },
-    {
-      question: "Berikut ini yang tidak termasuk hal yang harus diperhatikan pekerja dalam menggunakan media sosial pribadi adalah...",
-      answer: "Menjawab langsung segala bentuk pertanyaan ataupun keluhan konsumen yang ditemukan di media sosial",
-    },
-    {
-      question: "Which of the following services is not included in the Halo BCA Mobile service?",
-      answer: "Mobile and Web",
-    },
-    {
-      question: "Manakah di bawah ini aplikasi pihak ketiga yang tidak dapat digunakan untuk mengakses VIRA (Virtual Assistant Chat Banking BCA)?",
-      answer: "Telegram",
-    },
-    {
-      question: "Payment transactions through OneKlik can be made in any currency…",
-      answer: "Rupiah",
+      question: "Jenis rekening yang dapat dibuka oleh Warga Negara Indonesia yang bekerja sebagai Tenaga Kerja Indonesia (TKI) adalah…",
+      answer: "Tahapan",
     },
     {
       question:
-        "Bu Ami merupakan nasabah Solitaire yang mengambil produk simpanan dalam mata uang rupiah dengan jangka waktu 12 bulan. Sebelum mencairkan tabungannya saat tepat bulan ke-12, berikut hal yang tepat untuk perlu diketahui oleh Bu Ami yaitu..",
-      answer: "Bu Ami dapat mencairkan tabungan nya secara antar cabang",
-    },
-    {
-      question: "Berdasarkan Pernyataan di bawah ini, manakah yang termasuk dalam makna One Soul BCA?",
-      answer: "Satu semangat dan satu jiwa dan BCA adalah milik segenap Insan BCA",
-    },
-    {
-      question: "Jika dalam satu team terdiri dari Agus, Indra, dan fatah akan membuat akun media sosial BCA, kemudian Indra ditunjuk sebagai pemegang password, maka …",
-      answer: "Tidak menggunakan email pribadi, email di pegang oleh Agus, password dipegang oleh Indra",
-    },
-    {
-      question: "Hana kehilangan dompet yang berisi kartu debit BCA miliknya saat berlibur. Untuk mencegah terjadinya transaksi tak dikenal pada kartu debitnya yang hilang, maka hal mandiri yang dapat dilakukan Hana adalah…",
-      answer: "Memblokir kartu debit melalui myBCA",
-    },
-    {
-      question: "The benefits obtained by Electronic Data Capture (EDC) users as customers/cardholders are…",
-      answer: "No need to carry large amount of cash",
+        "Bu Amel dalam kesehariannya sebagai Kepala Bagian, selalu senantiasa rendah hati dan melayani customer dengan tulus. Ia juga tidak segan membantu anggota timnya yang mengalami kendala. Karakter BCA Leader+ yang dicerminkan oleh Bu Amel adalah…",
+      answer: "Always Humble & Serve Others",
     },
     {
       question:
-        "Daniel adalah warna negara Australia yang menetap di Indonesia dan berencana untuk membuka produk simpanan BCA dengan setoran awal menggunakan mata uang AUD. Produk simpanan yang dapat direkomendasikan untuk Daniel adalah..",
-      answer: "Deposito",
+        "Xpresi Passport Cards that are reported lost by savers will be blocked by BCA until a request for opening the blocked card is received. Transaction that can still be done in Tahapan Xpresi with the condition of the card are..",
+      answer: "Can receive incoming funds",
     },
     {
       question:
-        "Untuk meminimalisir risiko gangguan /kerusakan yang disebabkan oleh alam maupun manusia dimana kerusakan yang terjadi tidak hanya berdampak pada kemampuan teknologi BCA, tetapi juga berdampak pada kegiatan operasional bisnis BCA terutama pelayanan terhadap nasabah, maka BCA memiliki penerapan manajemen risiko operasional yang disebut..",
-      answer: "Business Continuity Management (BCM)",
+        "Bu Kiki membutuhkan mobil untuk operasional perusahaan, maka Bu Kiki mengajukan Kredit Kendaraan Bermotor(KKB) dengan mendanai sendiri uang muka/DP-nya. Jika harga dari mobil yang akan dibeli Bu Kiki adalah Rp 750 Juta, maka besar persentase minimum uang muka yang harus dibayar oleh Bu Kiki jika NPL KKB BCA nya <5% adalah..",
+      answer: "10%",
+    },
+    {
+      question: "Liam melakukan Outward Remittance (OR) melalui aplikasi remittanceBCA pada hari Sabtu, 12 Agustus 2023. Kapankah transaksi Pak Liam akan diproses?",
+      answer: "Pada hari Senin, 14 Agustus 2023",
     },
     {
       question:
-        "Eric seorang pemegang kartu tahapan sedang dalam perjalanan dari Jakarta menuju Kota Solo. Ia hendak mengambil uang cash di salah satu mini market di rest area yang Ia lewati. Sayangnya Ia tidak menemukan Mesin ATM BCA, apa yang dapat Eric lakukan?",
-      answer: "Menggunakan layanan Transaksi Tunai di EDC BCA",
+        "Dean adalah seorang nasabah eBranch Apps yang ingin melakukan penghapusan akun. Namun Dean tidak bisa melakukan penghapusan akun pada eBranch Apps sehingga Dean pergi ke cabang BCA untuk menanyakan alasan tersebut. Apakah penyebab dari gagal melakukan penghapusan akun eBranch Apps?",
+      answer: "Dean masih terdapat transaksi pada eBranch yang belum diselesaikan di cabang",
     },
     {
       question:
-        "Bu Sinta akan membuka E-Deposito dengan myBCA sejumlah Rp 30.000.000 untuk waktu 6 bulan dan suku bunga deposito yang berlaku sebesar 2.50% p.a dengan pajak sebesar 20%. Berapakah keuntungan yang didapatkan dari bunga selama 6 bulan nya? (dengan asumsi 1 bulan 30 hari dan 1 tahun 360 hari)",
-      answer: "Rp300.000",
+        "Bu Muna ingin membuka usaha baru yaitu toko makanan. Bu Muna mengajukan pendaftaran kerja sama merchant melalui Merchant BCA – Apps, namun Bu Muna tidak memiliki izin usaha. Maka apakah yang dapat Bu Muna lampirkan sebagai ganti nya?",
+      answer: "Foto Lokasi Usaha",
     },
     {
-      question: "In April, Mr. Fachri's BCA App Merchant application was automatically rejected by the system for not completing the document. When could Mr. Fachri submit the application again?",
-      answer: "August",
+      question: "The right characteristic of Sakuku account is…",
+      answer: "No interest given",
     },
     {
-      question:
-        "The infrastucture used by Bank Indonesia in the implementation of fund transfer and scheduled clearing to process electronic financial data on fund transfer services, debit clearing services, regular payment services and regular billing services is...",
-      answer: "SKNBI",
+      question: "Berikut jenis rekening yang dapat didaftarkan ke KBB Integrated Solution (KBB-IS) yang dapat berfungsi sebagai Rekening biaya dan Rekening Operasional yaitu",
+      answer: "Tahapan, Tahapan Xpresi, Tapres",
     },
     {
-      question:
-        "Pak Ghifari adalah seorang Nasabah produk Tahapan dengan kartu paspor BCA Gold. Pada bulan lalu, Pak Ghifari melakukan transfer uang sebesar Rp 25 juta rupiah ke rekening BCA salah satu teman nya. Sore harinya, Pak Ghifari mendadak harus melakukan transfer ke keluarga nya. Berapakah besaran maksimum yang bisa di transfer Pak Ghifari melalui ATM BCA ke keluarganya, jika keluarganya juga pengguna rekening BCA?",
-      answer: "Rp 50 juta",
-    },
-    {
-      question: "Manfaat reksa dana bagi nasabah adalah...",
-      answer: "Diversifikasi portofolio",
-    },
-    {
-      question: "Fitur di channel/layanan BCA bagi pemegang kartu luar negeri untuk mengetahui informasi nominal transaksi dan melakukan transaksi belanja/tarik tunai dalam mata uang negara asal adalah…",
-      answer: "Dynamic Currency Conversion",
-    },
-    {
-      question: "In addition to filling out the mobile form, other transactions that customers can make on BCA's eBranch app are…",
-      answer: "Make a reservation to make a transactions at the Branch",
-    },
-    {
-      question:
-        "Dalam melakukan restrukturisasi kredit, Bank wajib memperhatikan prinsip-prinsip restrukturisasi. Salah satunya adalah keadilan dan kesetaraan dalam memenuhi hak-hak para pemangku kepentingan yang timbul berdasarkan perjanjian dan peraturan perundang-undangan yang termasuk ke dalam prinsip...",
-      answer: "Kewajaran",
-    },
-    {
-      question: "Aplikasi yang berfungsi sebagai wadah untuk komunitas nasabah muda yang merupakan Nasabah BCA Solitaire/ BCA Prioritas atau anak dari nasabah BCA Solitaire / BCA Prioritas adalah..",
-      answer: "BCA Young Community",
-    },
-    {
-      question:
-        "Jordan ingin mengajukan penyewaan SDB (Safe Deposit Box) sehingga Jordan harus datang ke cabang yang memiliki layanan SDB dengan membawa kelengkapan dokumen. Berikut dokumen yang perlu dibawa Jordan saat datang ke cabang adalah…",
-      answer: "KTP dan Buku Tabungan",
-    },
-    {
-      question: "Fitur BCA Mobile yang memungkinkan pengguna untuk mengirimkan dana ke beberapa pengguna lainnya baik secara fixed maupun random dengan tambahan berupa kartu ucapan virtual adalah...",
-      answer: "BagiBagi",
-    },
-    {
-      question: "Banking transaction services through the customer telephone network served by IVR (answeing machine) are..",
-      answer: "BCA by Phone Bisnis",
-    },
-    {
-      question: "Transaksi yang dapat dilakukan apabila pemegang kartu BCA melakukan transaksi perbankan pada mesin Electronic Data Capture (EDC) bank lain adalah…",
-      answer: "Transaksi informasi saldo dan transaksi pembayaran",
-    },
-    {
-      question:
-        "Joyan adalah seorang pelajar berusia 15 tahun yang ingin membuka rekening tabungan bersama ibu nya. Ketika pembukaan rekening sudah berhasil, Ibu dari Joyan ingin mengajukan kartu secara terpisah. Apakah yang dilakukan Ibu dari Joyan sudah tepat?",
-      answer: "Belum tepat, karena setelah pembukaan rekening berhasil dilakukan tidak perlu pengajuan kartu karena kartu sudah merupakan satu kesatuan dengan pembukaan rekening",
-    },
-    {
-      question: "One of the target (potential) debtors of BCA Secure Personal Loan users is…",
-      answer: "BCA Solitaire Customers",
-    },
-    {
-      question: "The following is not included in the multi scheme in granting credit is..",
-      answer: "Multi Financing",
+      question: "Proses autodebet online dari rekening Daud mengalami kegagalan sebanyak 2 kali. Informasi yang harus disampaikan oleh BCA kepada Daud adalah..",
+      answer: "Rekening Daud akan diblokir sementara oleh sistem sampai Daud melakukan pembayaran",
     },
   ];
   const [data, setData] = useState(asset);
