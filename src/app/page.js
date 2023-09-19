@@ -11,6 +11,56 @@ export default function Home() {
   const [error, setError] = useState(false);
   const asset = [
     {
+      question: "Salah satu kategori surat berharga memiliki ketentuan yaitu keputusan transaksi pembelian atau penjualan surat berharga sesuai dengan wewenang Dealer. Apakah kategori dari surat berharga yang memiliki ketentuan tersebut?",
+      answer: "Fair Value Through Profit or Loss (FVTPL)",
+    },
+    {
+      question:
+        "Hari adalah seorang nasabah yang selalu melakukan pembayaran menggunakan kartu kredit. Ia memiliki BCA Card Platinum dan 2 kartu kredit tambahan, yaitu BCA Visa Singapore Airlines dan BCA Blibli Mastercard. Supaya memudahkan dalam pembayaran tagihan kartu kreditnya, Hari hendak menggunakan layanan Autopay untuk kartu-kartu kreditnya. Apakah semua kartu kredit Hari dapat diberi layanan Autopay?",
+      answer: "Bisa untuk BCA Card Platinum dan BCA Blibli Mastercard-nya saja",
+    },
+    {
+      question: "Jenis Transaksi Kliring dalam Sistem Kliring Nasional (SKN) adalah..",
+      answer: "Kliring Warkat Debit dan Kliring Kredit",
+    },
+    {
+      question:
+        "Pak Dave adalah seorang nasabah KlikBCA Individu sejak tahun 2022. Di Januari 2023, Pak Dave ingin memblokir kartu ATM yang terkait dengan Klik BCA Individu (KBI) karena satu dan lain hal. Untuk proses pemblokiran ini, sistem akan memverifikasi Pak Dave melalui...",
+      answer: "Tanggal lahir yang diinput oleh nasabah",
+    },
+    {
+      question: "Analyzing the factors that can affect the level of risk in the future is type of risk...",
+      answer: "Operational Risk",
+    },
+    {
+      question:
+        "Pak Zayyan setiap bulan nya melakukan transaksi Klik BCA Bisnis (KBB) setidaknya 5-10 transaksi dengan maksimal transaksi yaitu 1 miliar. Setiap melakukan transaksi, Pak Zayyan selalu mendapatkan informasi atas keberhasilan transaksi dan upload file di KBB yang ditampilkan dalam bentuk status. Selain mendapatkan informasi dalam bentuk status transaksi, Pak Zayyan juga mendapatkan informasi dalam bentuk....",
+      answer: "Email Notifikasi",
+    },
+    {
+      question: "In the financial institution remittance (Fire) service, remittances from overseas partners to the recipient's account at BCA can be made in currency..",
+      answer: "IDR and Valas",
+    },
+    {
+      question:
+        "Pak Eky menggunakan Merchant BCA App untuk pengelolaan tokonya. Pada bulan Mei ini, Pak Eky berencana untuk menambah mesin EDC. Batasan maksimum pengajuan pengelolaan hanya 1 jenis pengelolaan per Merchant ID (MID) yang sedang di proses. Jika Pak Eky ingin melakukan pengajuan jenis lain pada MID yang sama, maka yang harus dilakukan oleh Pak Eky adalah...",
+      answer: "Menunggu pengajuan sebelumnya selesai di proses",
+    },
+    {
+      question:
+        "Pak Jovan merupakan nasabah BCA yang selalu menggunakan BCA Mobile untuk melakukan transaksi. Suatu hari Pak Jovan diminta untuk memberikan akses lokasi perangkatnya saat sedang menggunakan BCA Mobile. Transaksi apakah yang sedang dilakukan Pak Jovan pada BCA Mobile-nya?",
+      answer: "Pembukaan rekening Online",
+    },
+    {
+      question: "Pada hari Selasa, 15 Agustus 2023 di jam 10 Pagi, Sally ingin melalukan perubahan layanan/data di KBB Integrated Solution (KBB -IS). Kapankah permohonan Sally akan diproses?",
+      answer: "Selasa, 15 Agustus 2023",
+    },
+    {
+      question:
+        "Pak Eky menggunakan Merchant BCA App untuk pengelolaan tokonya. Pada bulan Mei ini, Pak Eky berencana untuk menambah mesin EDC. Batasan maksimum pengajuan pengelolaan hanya 1 jenis pengelolaan per Merchant ID (MID) yang sedang di proses. Jika Pak Eky ingin melakukan pengajuan jenis lain pada MID yang sama, maka yang harus dilakukan oleh Pak Eky",
+      answer: "Menunggu pengajuan sebelumnya selesai di proses",
+    },
+    {
       question: "In SENADA, the color that illustrated loyalty, trust, wisdom, and confidence is…",
       answer: "Blue",
     },
