@@ -30,7 +30,7 @@ export default function Home() {
     },
     {
       question: "Analyzing the factors that can affect the level of risk in the future is type of risk...",
-      answer: "Operational Risk",
+      answer: "credit risk",
     },
     {
       question:
@@ -445,8 +445,8 @@ export default function Home() {
       answer: "Alih daya pada sebagian kegiatan operasional",
     },
     {
-      question: "Analyzing the factors that can affect the level of risk in the future is type of risk…",
-      answer: "Market Risk",
+      question: "Things that must be prepared if the customer wants to replace the lost card at CS Digital are…",
+      answer: "KTP and account number",
     },
     {
       question: "Ester wants to open a consumer credit card with the card type BCA Mastercard. The transaction facility on the BCA channel that Ester cannot get by using this type of credit card is..",
@@ -671,7 +671,7 @@ export default function Home() {
     },
     {
       question: "Proses autodebet online dari rekening Daud mengalami kegagalan sebanyak 2 kali. Informasi yang harus disampaikan oleh BCA kepada Daud adalah..",
-      answer: "Rekening Daud akan diblokir sementara oleh sistem sampai Daud melakukan pembayaran",
+      answer: "Daud harus melakukan pembayaran secara manual melalui e-channel untuk menghindari denda",
     },
   ];
   const [data, setData] = useState(asset);
