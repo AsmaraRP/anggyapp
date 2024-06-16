@@ -10,10 +10,7 @@ export default function Home() {
   const [kode, setKode] = useState("");
   const [error, setError] = useState(false);
   const asset = [
-    {
-      question: "Salah satu kategori surat berharga memiliki ketentuan yaitu keputusan transaksi pembelian atau penjualan surat berharga sesuai dengan wewenang Dealer. Apakah kategori dari surat berharga yang memiliki ketentuan tersebut?",
-      answer: "Fair Value Through Profit or Loss (FVTPL)",
-    },
+   
     {
       question:
         "Hari adalah seorang nasabah yang selalu melakukan pembayaran menggunakan kartu kredit. Ia memiliki BCA Card Platinum dan 2 kartu kredit tambahan, yaitu BCA Visa Singapore Airlines dan BCA Blibli Mastercard. Supaya memudahkan dalam pembayaran tagihan kartu kreditnya, Hari hendak menggunakan layanan Autopay untuk kartu-kartu kreditnya. Apakah semua kartu kredit Hari dapat diberi layanan Autopay?",
